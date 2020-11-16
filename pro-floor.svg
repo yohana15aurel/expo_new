@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1720px" height="1400px" viewBox="0 0 1720 1400" enable-background="new 0 0 1720 1400" xml:space="preserve">
+<g id="landmark-floor-pro">
+	<path fill="#2F1558" d="M1615.73,1159.25H112.27c-13.96,0-25.27-11.31-25.27-25.27V288.55c0-13.96,11.31-25.27,25.27-25.27h1503.46
+		c13.96,0,25.27,11.31,25.27,25.27v845.43C1641,1147.94,1629.69,1159.25,1615.73,1159.25z"/>
+	<rect x="237.03" y="400.68" fill="#2F1558" stroke="#EC8FFF" stroke-miterlimit="10" width="1258.15" height="612.76"/>
+	<path fill="none" stroke="#FFFFFF" stroke-miterlimit="10" d="M1557.3,1093.45H173.86c-6.98,0-12.63-5.66-12.63-12.63V342.77
+		c0-6.98,5.66-12.63,12.63-12.63H1557.3c6.98,0,12.63,5.66,12.63,12.63v738.04C1569.93,1087.79,1564.28,1093.45,1557.3,1093.45z"/>
+</g>
+<g id="landmark-zone-stage">
+	<rect id="stage" x="273.88" y="432.26" fill="#2F1558" stroke="#EC8FFF" stroke-miterlimit="10" width="259" height="134.76"/>
+	
+		<text transform="matrix(0.9565 0 0 1 383.1777 496.8584)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="17.1901px">Open</text>
+	
+		<text transform="matrix(0.9565 0 0 1 382.4141 517.4873)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="17.1901px">Stage</text>
+</g>
+<g id="landmark-zone-vip">
+	<rect id="VIP" x="273.88" y="593.35" fill="#2F1558" stroke="#EC8FFF" stroke-miterlimit="10" width="310.59" height="222.15"/>
+	
+		<text transform="matrix(0.9565 0 0 1 391.127 684.9678)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="17.1901px">VIP</text>
+	
+		<text transform="matrix(0.9565 0 0 1 363.9561 705.5957)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="17.1901px">Auditorium</text>
+	
+		<text transform="matrix(0.9565 0 0 1 375.0459 726.2236)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="17.1901px">Enclose</text>
+</g>
+<g id="landmark-zone-canteen">
+	<rect id="canteen" x="273.88" y="840.77" fill="#2F1558" stroke="#EC8FFF" stroke-miterlimit="10" width="259" height="134.76"/>
+	
+		<text transform="matrix(0.9565 0 0 1 367.0889 904.6592)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="17.1901px">Canteen</text>
+	
+		<text transform="matrix(0.9565 0 0 1 380.8672 925.2891)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="17.1901px">Cafe</text>
+</g>
+<g id="landmark-zone-entrance">
+	<path fill="#964CFF" d="M1503.08,781.85c0,4.65-3.77,8.42-8.42,8.42l0,0c-4.65,0-8.42-3.77-8.42-8.42V649.19
+		c0-4.65,3.77-8.42,8.42-8.42l0,0c4.65,0,8.42,3.77,8.42,8.42V781.85z"/>
+	
+		<text transform="matrix(0.9565 0 0 1 1387.8506 717.2559)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="17.1901px">ENTRANCE</text>
+</g>
+<g id="landmark-zone-e">
+	<g id="pe07">
+		<rect id="m07-box" x="1253.03" y="435.42" fill="none" stroke="#AEAEFF" stroke-miterlimit="10" width="173.72" height="71.59"/>
+		
+			<text transform="matrix(0.9565 0 0 1 1323.7422 472.9941)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="17.1901px">M07</text>
+	</g>
+	<g id="pe08">
+		<rect id="m08-box" x="1058.25" y="435.42" fill="none" stroke="#AEAEFF" stroke-miterlimit="10" width="173.72" height="71.59"/>
+		
+			<text transform="matrix(0.9565 0 0 1 1128.0723 472.9941)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="17.1901px">M08</text>
+	</g>
+	<g id="pe09">
+		<rect id="m09-box" x="860.32" y="435.42" fill="none" stroke="#AEAEFF" stroke-miterlimit="10" width="173.72" height="71.59"/>
+		
+			<text transform="matrix(0.9565 0 0 1 928.6514 472.9941)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="17.1901px">M09</text>
+	</g>
+	<g id="pe10">
+		<rect id="M10-box" x="659.22" y="435.42" fill="none" stroke="#AEAEFF" stroke-miterlimit="10" width="173.72" height="71.59"/>
+		
+			<text transform="matrix(0.9565 0 0 1 733.4902 472.9941)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="17.1901px">M10</text>
+	</g>
+	<g id="pe02">
+		<rect id="mox-m02" x="1355.15" y="537.55" fill="none" stroke="#AEAEFF" stroke-miterlimit="10" width="71.59" height="157.93"/>
+		
+			<text transform="matrix(0.9565 0 0 1 1376.1357 624.6045)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="17.1901px">M02</text>
+	</g>
+	<g id="pe01">
+		<rect id="m01-box" x="1355.15" y="728.11" fill="none" stroke="#AEAEFF" stroke-miterlimit="10" width="71.59" height="157.93"/>
+		
+			<text transform="matrix(0.9565 0 0 1 1378.1836 807.8008)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="17.1901px">M01</text>
+	</g>
+	<g id="pe03">
+		<rect id="m03-box" x="1253.03" y="910.26" fill="none" stroke="#AEAEFF" stroke-miterlimit="10" width="173.72" height="71.59"/>
+		
+			<text transform="matrix(0.9565 0 0 1 1323.3965 947.4756)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="17.1901px">M03</text>
+	</g>
+	<g id="pe04">
+		<rect id="m04-box" x="1058.25" y="910.26" fill="none" stroke="#AEAEFF" stroke-miterlimit="10" width="173.72" height="71.59"/>
+		
+			<text transform="matrix(0.9565 0 0 1 1128.2617 947.4756)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="17.1901px">M04</text>
+	</g>
+	<g id="pe05">
+		<rect id="m05-box" x="860.32" y="910.26" fill="none" stroke="#AEAEFF" stroke-miterlimit="10" width="173.72" height="71.59"/>
+		
+			<text transform="matrix(0.9565 0 0 1 928.6582 947.4756)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="17.1901px">M05</text>
+	</g>
+	<g id="pe06">
+		<rect id="m06-box" x="659.22" y="910.26" fill="none" stroke="#AEAEFF" stroke-miterlimit="10" width="173.72" height="71.59"/>
+		
+			<text transform="matrix(0.9565 0 0 1 731.4189 947.4756)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="17.1901px">M06</text>
+	</g>
+</g>
+<g id="landmark-zone-f">
+	<g id="pf19">
+		
+			<text transform="matrix(0.9565 0 0 1 689.5225 581.6152)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="17.1901px">S19</text>
+		<rect id="s19-box" x="660.5" y="537.5" fill="none" stroke="#9CDCFF" stroke-miterlimit="10" width="88" height="81"/>
+	</g>
+	<g id="pf20">
+		
+			<text transform="matrix(0.9565 0 0 1 777.5225 581.6152)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="17.1901px">S20</text>
+		<rect id="s19-box_1_" x="748.5" y="537.5" fill="none" stroke="#9CDCFF" stroke-miterlimit="10" width="88" height="81"/>
+	</g>
+	<g id="pf21">
+		
+			<text transform="matrix(1.0598 0 0 1 869.6553 581.6152)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="17.1901px">S21</text>
+		<rect id="s19-box_2_" x="837.5" y="537.5" fill="none" stroke="#9CDCFF" stroke-miterlimit="10" width="97.5" height="81"/>
+	</g>
+	<g id="pf18">
+		
+			<text transform="matrix(1.0262 0 0 1 689.5225 660.6196)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.0229px">S18</text>
+		<rect id="s19-box_3_" x="660.5" y="619.5" fill="none" stroke="#9CDCFF" stroke-miterlimit="10" width="88" height="75.5"/>
+	</g>
+	<g id="pf17">
+		
+			<text transform="matrix(1.0128 0 0 1 777.5225 660.1641)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.2351px">S17</text>
+		<rect id="s19-box_4_" x="748.5" y="618.5" fill="none" stroke="#9CDCFF" stroke-miterlimit="10" width="88" height="76.5"/>
+	</g>
+	<g id="pf16">
+		
+			<text transform="matrix(1.1221 0 0 1 869.6553 660.1641)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.2351px">S16</text>
+		<rect id="s19-box_5_" x="837.5" y="618.5" fill="none" stroke="#9CDCFF" stroke-miterlimit="10" width="97.5" height="76.5"/>
+	</g>
+</g>
+<g id="landmark-zone-b">
+	<g id="pb13">
+		
+			<text transform="matrix(0.9565 0 0 1 688.5225 767.6152)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="17.1901px">S13</text>
+		<rect id="s19-box_11_" x="659.5" y="723.5" fill="none" stroke="#9CDCFF" stroke-miterlimit="10" width="88" height="81"/>
+	</g>
+	<g id="pb14">
+		
+			<text transform="matrix(0.9565 0 0 1 776.5225 767.6152)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="17.1901px">S14</text>
+		<rect id="s19-box_10_" x="747.5" y="723.5" fill="none" stroke="#9CDCFF" stroke-miterlimit="10" width="88" height="81"/>
+	</g>
+	<g id="pb15">
+		
+			<text transform="matrix(1.0598 0 0 1 868.6553 767.6152)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="17.1901px">S15</text>
+		<rect id="s19-box_9_" x="836.5" y="723.5" fill="none" stroke="#9CDCFF" stroke-miterlimit="10" width="97.5" height="81"/>
+	</g>
+	<g id="pb12">
+		
+			<text transform="matrix(1.0262 0 0 1 688.5225 846.6196)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.0229px">S12</text>
+		<rect id="s19-box_8_" x="659.5" y="805.5" fill="none" stroke="#9CDCFF" stroke-miterlimit="10" width="88" height="75.5"/>
+	</g>
+	<g id="pb11">
+		
+			<text transform="matrix(1.0128 0 0 1 776.5225 846.1641)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.2351px">S11</text>
+		<rect id="s19-box_7_" x="747.5" y="804.5" fill="none" stroke="#9CDCFF" stroke-miterlimit="10" width="88" height="76.5"/>
+	</g>
+	<g id="pb09">
+		
+			<text transform="matrix(1.1221 0 0 1 868.6553 846.1641)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.2351px">S09</text>
+		<rect id="s19-box_6_" x="836.5" y="804.5" fill="none" stroke="#9CDCFF" stroke-miterlimit="10" width="97.5" height="76.5"/>
+	</g>
+</g>
+<g id="landmark-zone-c">
+	<g id="pc07">
+		
+			<text transform="matrix(0.9565 0 0 1 1074.6455 581.6152)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="17.1901px">S07</text>
+		<rect id="s07-box" x="1046.5" y="537.5" fill="none" stroke="#9CDCFF" stroke-miterlimit="10" width="90" height="81"/>
+	</g>
+	<g id="pc08">
+		
+			<text transform="matrix(1.0043 0 0 1 1166.0527 581.6152)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="17.1901px">S08</text>
+		<rect id="s07-box_1_" x="1136.5" y="537.5" fill="none" stroke="#9CDCFF" stroke-miterlimit="10" width="94.5" height="81"/>
+	</g>
+	<g id="pc06">
+		
+			<text transform="matrix(1.0262 0 0 1 1074.6455 660.6196)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.0229px">S06</text>
+		<rect id="s07-box_2_" x="1046.5" y="619.5" fill="none" stroke="#9CDCFF" stroke-miterlimit="10" width="90" height="75.5"/>
+	</g>
+	<g id="pc05">
+		
+			<text transform="matrix(1.0775 0 0 1 1166.0527 660.6196)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.0229px">S05</text>
+		<rect id="s07-box_3_" x="1136.5" y="619.5" fill="none" stroke="#9CDCFF" stroke-miterlimit="10" width="94.5" height="75.5"/>
+	</g>
+</g>
+<g id="landmark-zone-d">
+	<g id="pd03">
+		
+			<text transform="matrix(0.9565 0 0 1 1074.6455 767.6152)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="17.1901px">S03</text>
+		<rect id="s07-box_7_" x="1046.5" y="723.5" fill="none" stroke="#9CDCFF" stroke-miterlimit="10" width="90" height="81"/>
+	</g>
+	<g id="pd04">
+		
+			<text transform="matrix(1.0043 0 0 1 1166.0527 767.6152)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="17.1901px">S04</text>
+		<rect id="s07-box_6_" x="1136.5" y="723.5" fill="none" stroke="#9CDCFF" stroke-miterlimit="10" width="94.5" height="81"/>
+	</g>
+	<g id="pd02">
+		
+			<text transform="matrix(1.0262 0 0 1 1074.6455 846.6196)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.0229px">S02</text>
+		<rect id="s07-box_5_" x="1046.5" y="805.5" fill="none" stroke="#9CDCFF" stroke-miterlimit="10" width="90" height="75.5"/>
+	</g>
+	<g id="pd01">
+		
+			<text transform="matrix(1.0775 0 0 1 1166.0527 846.6196)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.0229px">S01</text>
+		<rect id="s07-box_4_" x="1136.5" y="805.5" fill="none" stroke="#9CDCFF" stroke-miterlimit="10" width="94.5" height="75.5"/>
+	</g>
+</g>
+</svg>

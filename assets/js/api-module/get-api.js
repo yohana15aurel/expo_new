@@ -148,7 +148,7 @@
   }();
 
   var mapplic = function () {
-    var MAP_SOURCE = '../assets/plugins/mapplic/venue.json';
+    var MAP_SOURCE = 'assets/plugins/mapplic/venue.json';
     var $root;
     var $window;
     var mapDefaultOptions = {
@@ -248,7 +248,7 @@
     _listTitle = {}, $contactInformation = $("#private-meeting").find(".contact-information");
     _changeExhibitorJsonDataFunc = "", _listCountryAndTimezone = {};
     // for hotspot click
-    boothLink = ['./../xpo/booths/M01/M01.html', './../xpo/booths/M02/M02.html', './../xpo/booths/M03/M03.html', './../xpo/booths/M04/M04.html', './../xpo/booths/M05/M05.html', './../xpo/booths/M06/M06.html', './../xpo/booths/S01/S01.html', './../xpo/booths/S02/S02.html', './../xpo/booths/S03/S03.html', './../xpo/booths/SM01/SM01.html', './../xpo/booths/SS01/SS01.html', './../xpo/booths/L01/L01.html', './../xpo/booths/L02/L02.html', './../xpo/booths/L03/L03.html', './../xpo/booths/L04/L04.html'];
+    boothLink = ['xpo/booths/M01/M01.html', 'xpo/booths/M02/M02.html', 'xpo/booths/M03/M03.html', 'xpo/booths/M04/M04.html', 'xpo/booths/M05/M05.html', 'xpo/booths/M06/M06.html', 'xpo/booths/S01/S01.html', 'xpo/booths/S02/S02.html', 'xpo/booths/S03/S03.html', 'xpo/booths/SM01/SM01.html', 'xpo/booths/SS01/SS01.html', 'xpo/booths/L01/L01.html', 'xpo/booths/L02/L02.html', 'xpo/booths/L03/L03.html', 'xpo/booths/L04/L04.html'];
 
     function _variableInitiation() {
       // Api GET list Exhibitors
@@ -396,11 +396,11 @@
       var booth_thumbnail = item.booth_thumbnail;
 
       if (booth_logo == undefined || booth_logo == null) {
-        booth_logo = './../assets/images/listing_1.png';
+        booth_logo = 'assets/images/listing_1.png';
       }
 
       if (booth_thumbnail == undefined || booth_thumbnail == null) {
-        booth_thumbnail = './../assets/images/BOOTH 3D-Perspective-4.jpg';
+        booth_thumbnail = 'assets/images/BOOTH 3D-Perspective-4.jpg';
       }
 
       var html = [];
@@ -434,11 +434,11 @@
         var exhibitorUrl = exhibitor.exhibitor_booth_url;
         $iframe.attr('src', exhibitorUrl);
       } else {
-        $iframe.attr('src', "./../xpo/booths/" + boothType + "/" + boothType + ".html");
+        $iframe.attr('src', "xpo/booths/" + boothType + "/" + boothType + ".html");
       }
 
       if(document.location.hostname == "localhost") {
-        $iframe.attr('src', "./../xpo/booths/" + boothType + "/" + boothType + ".html");
+        $iframe.attr('src', "xpo/booths/" + boothType + "/" + boothType + ".html");
       }
 
       _boothPositionIndex = boothIndex;
@@ -709,7 +709,7 @@
 
           var html_lightbox = []
           html_lightbox.push('<a href="'+listPoster[0]+'" class="buttons-social button-fullscreen setting-poster" title="" data-toggle="tooltip" data-placement="left">')
-            html_lightbox.push('<img src="./../assets/images/fullscreen.svg" alt="more">')
+            html_lightbox.push('<img src="assets/images/fullscreen.svg" alt="more">')
           html_lightbox.push('</a>')
 
           $(popupModalId).find(".setting-btn").prepend(html_lightbox.join(""))
@@ -878,7 +878,7 @@
 
       var html = []
       html.push('<a href="'+$posterImg+'" class="buttons-social button-fullscreen setting-poster" title="" data-toggle="tooltip" data-placement="left">')
-        html.push('<img src="./../assets/images/fullscreen.svg" alt="more">')
+        html.push('<img src="assets/images/fullscreen.svg" alt="more">')
       html.push('</a>')
 
       $modalPopup.find(".setting-btn").prepend(html.join(""))
@@ -1918,8 +1918,8 @@
 
       function _updatePosterBookmarkIcon(){
         var listBookmarkedContentId = Object.keys(_listBookmarkedContent);
-        var bookmarkUnsavedSrc = "./../assets/images/bookmark.svg";
-        var bookmarkSavedSrc = "./../assets/images/bookmark-white.svg";
+        var bookmarkUnsavedSrc = "assets/images/bookmark.svg";
+        var bookmarkSavedSrc = "assets/images/bookmark-white.svg";
         var $listPosterModal = $(".modal-popup");
         $listPosterModal.each(function(index) {
           var modal = $(this);
@@ -1940,8 +1940,8 @@
 
       function _updateVideoBookmarkIcon(){
         var listBookmarkedContentId = Object.keys(_listBookmarkedContent);
-        var bookmarkUnsavedSrc = "./../assets/images/bookmark.svg";
-        var bookmarkSavedSrc = "./../assets/images/bookmark-white.svg";
+        var bookmarkUnsavedSrc = "assets/images/bookmark.svg";
+        var bookmarkSavedSrc = "assets/images/bookmark-white.svg";
 
         var $listVideoModal = $(".modal-popup_video");
 
@@ -1965,8 +1965,8 @@
 
       function _updateExhibitorBokmarkIcon(){
         var listBookmarkedContentId = Object.keys(_listBookmarkedContent);
-        var bookmarkUnsavedSrc = "./../assets/images/bookmark.svg";
-        var bookmarkSavedSrc = "./../assets/images/bookmark-white.svg";
+        var bookmarkUnsavedSrc = "assets/images/bookmark.svg";
+        var bookmarkSavedSrc = "assets/images/bookmark-white.svg";
 
         var $bookmarkButton =  $(".button-footer").find(".bookmark-button").find("img");
         var exhibitorId = _listExhibitorId[_boothPositionIndex];
@@ -3415,7 +3415,7 @@
           var companyName = "default - company name";
           var boothId = "";
           var title = "";
-          var iconSrc = "./../assets/images/pin.png"
+          var iconSrc = "assets/images/pin.png"
           var contentDesc = "Sports Car";
           var iconDesc = "default - London"
           var exhibitorId = "";
@@ -3444,7 +3444,7 @@
 
           } else if(contentType == "poster"){
             iconDesc = "poster"
-            iconSrc = "./../assets/images/photo.png"
+            iconSrc = "assets/images/photo.png"
 
 
             title = content.title;
@@ -3466,7 +3466,7 @@
 
           } else if(contentType == "video"){
             iconDesc = "video"
-            iconSrc = "./../assets/images/video-gray.png"
+            iconSrc = "assets/images/video-gray.png"
 
             videoUrl = content.videoUrl
 
@@ -4050,7 +4050,7 @@
 
         // var boothLinkIndex = parseInt($(this).data("id")) - 1;
         var boothTypeIndex = _listBoothOrder.indexOf(boothType); // if booth selected is dont have any exhibitor / there is no exhibitor using this booth in api
-        var boothSrc = './../xpo/booths/'+boothType+'/'+boothType+'.html';
+        var boothSrc = 'xpo/booths/'+boothType+'/'+boothType+'.html';
 
         if (boothTypeIndex == -1) {
           // $canvas = $('#canvas');

@@ -1,244 +1,4985 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
+
+
+
+
 <head>
+
+  <link rel="stylesheet" href="assets/css/animations.css">
+
+  <link rel="stylesheet" href="assets/plugins/mapplic/mapplic.css">
+
+  <link rel="stylesheet" href="assets/plugins/hotspotter/jquery-hotspotter-1.7.6.min.css" />
+
   <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css" type="text/css" />
+
   <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="assets/plugins/datepicker/bootstrap-datetimepicker.css" type="text/css" />
+  <link rel="stylesheet" href="assets/plugins/simplelightbox/dist/simpleLightbox.css" type="text/css" />
+
+  <link rel="stylesheet" href="assets/plugins/jquery/jquery-ui-1.12.1/jquery-ui.css" type="text/css" />
+
+  <link rel="stylesheet" href="assets/plugins/font-awesome/font-awesome.min.css" type="text/css" />
   <link rel="icon" href="assets/images/favicon_02.png" />
+
+
+
+
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
   <meta charset="UTF-8">
+
+
+
+  <meta name="twitter:card" content="summary_large_image">
+
+  <meta name="twitter:title" content="XPOMANIA">
+
+  <meta name="twitter:description" content="Exhibition Online">
+
+  <meta property="og:image" content="assets/images/listing_2.png">
+
+  <meta property="og:image:width" content="1200" />
+
+  <meta property="og:image:height" content="630" />
+
+
+
   <title>XPOMANIA</title>
+
 </head>
+
+
 
 <body>
 
-  <!-- navbar -->
-  <nav class="navbar navbar-home navbar-default navbar-side navbar-static-top">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button data-toggle="collapse-side" data-target=".side-collapse" type="button" class="navbar-toggle">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar-home"></span>
-          <span class="icon-bar-home"></span>
-          <span class="icon-bar-home"></span>
-        </button>
-        <a class="navbar-brand" href="#">
-          <img src="assets/images/XPOMANIA-Logo-White.png" class="xpomania" alt="xpomania">
-        </a>
-      </div>
-      <div class="navbar-default side-collapse open">
-          <button type="button" class="close close-cross" id="close1">&times;</button>
-        <div class="navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active">
-              <a class="hover-1-home" href="#">About</a>
-            </li>
-            <li>
-              <a class="hover-1-home" href="#">Press</a>
-            </li>
-            <li>
-              <a class="hover-1-home" href="#">Gallery</a>
-            </li>
-            <li>
-              <a class="hover-1-home" href="#">Contact</a>
-            </li>
-            <li>
-              <a class="hover-1-home" href="#">FAQ</a>
-            </li>
-            <li>
-              <a class="hover-1-home" href="https://xpodev.xpomania.com/portal" target="_blank">Portal</a>
-            </li>
-            <li>
-              <span class="register">
-                <a class="view-form" data-toggle="modal" data-target="#open-register" contenteditable="false">
-                  <button class="btn-blue button-blue">Register</button>
-                </a>
-              </span>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </nav>
 
-  <!-- countdown -->
-  <div class="countdown-banner">
+
+
+
+  <!-- welcome -->
+
+  <!-- <div class="welcome-banner" id="welcome-banner">
+
     <div class="overlay"></div>
-    <div class="content-countdown__banner padding-banner">
-      <h2 class="js-text-countdown-title"><!-- @dynamic--></h2>
-      <p class="js-text-countdown-subtitle"><!-- @dynamic--></p>
-      <div class="countdown" id="countdown">
-        <ul>
-          <li>
-            <span id="days">0</span>Days</li>
-          <li>
-            <span id="hours">0</span>Hours</li>
-          <li>
-            <span id="minutes">0</span>Minutes</li>
-          <li>
-            <span id="seconds">0</span>Seconds</li>
-        </ul>
-      </div>
-      <div class="skip">
-        <a href="xpo/index.html" class="btn-blue button-blue btn-skip">Skip to demo</a>
-      </div>
-    </div>
-  </div>
 
-  <!-- Modal Form Registration-->
-  <div class="modal  modal-regis fade" id="open-register" role="dialog">
-    <div class="modal-dialog">
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">REGISTER ACCOUNT</h4>
+    <div class="welcome-content padding-banner">
+
+      <div class="animatedParent" data-sequence='500'>
+
+        <h2 class='animated fadeInUpShort' data-id='1'>Welcome</h2>
+
+        <p class='animated fadeInUpShort' data-id='2'>to the biggest tech online exhibition in the world</p>
+
+        <div class="scroll-here animated fadeInUpShort" data-id='3'>
+
+          <a href="#" class="scroll">
+
+            <img src="./../assets/images/computer-mouse.svg" alt="scroll">Scroll to enter exhibition or press [enter]</a>
+
         </div>
-        <div class="modal-body">
-          <form class="form-registration">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <div class="form-title_register">
-                  <label>Title</label>
-                  <select class="title-register" id="title-register" required>
-                    <option value="" disabled selected>Title</option>
+
+      </div>
+
+    </div>
+
+  </div> -->
+
+
+
+  <!-- exhibition layout -->
+
+  <div class="exhibition-layout">
+
+    <nav class="navbar navbar-exhibition navbar-default navbar-side navbar-static-top">
+
+      <div class="container-fluid">
+
+        <div class="navbar-header">
+
+          <button data-toggle="collapse-side" data-target=".side-collapse" type="button" class="navbar-toggle">
+
+            <span class="sr-only">Toggle navigation</span>
+
+            <span class="icon-bar-home"></span>
+
+            <span class="icon-bar-home"></span>
+
+            <span class="icon-bar-home"></span>
+
+          </button>
+
+          <a class="navbar-brand" href="../">
+
+            <img src="assets/images/XPOMANIA-Logo-White.png" class="xpomania" alt="xpomania">
+
+            <span class="desktop-ver">Demo Version 2.0</span>
+
+            <span class="mobile-ver">Demo v2.0</span>
+
+          </a>
+
+          <a class="mobile-search" data-toggle="modal" data-target="#search-page" contenteditable="false">
+
+            <span class="icon-search search2" id='toggle-search2'>
+
+              <input style='display:none;' id='searchBar2' name='search' type='search' placeholder='Search&hellip;'>
+
+            </span>
+
+          </a>
+
+        </div>
+
+        <div class="navbar-default side-collapse open">
+
+          <button type="button" class="close close-cross" id="close2">&times;</button>
+
+          <div class="navbar-collapse">
+
+            <ul class="nav navbar-nav navbar-right">
+
+              <li>
+
+                <!-- <a  data-toggle="modal" data-target="#open-viewSeminar" >Seminar</a> -->
+
+                <a class="view-seminar play-video" class="video-play-button " data-toggle="modal" data-local-video="assets/images/Flythrough 01-1.mp4"
+                  data-type="local" data-target="#open-viewSeminar" contenteditable="false" data-clicked="false">Seminar</a>
+
+              </li>
+
+              <li>
+
+                <a class="view-map" data-toggle="modal" data-target="#open-viewMap" contenteditable="false">View Map</a>
+
+              </li>
+
+              <li>
+
+                <a class="view-listing" data-toggle="modal" data-target="#open-viewListing" contenteditable="false">View Listings</a>
+
+              </li>
+
+              <li>
+
+                <a class="view-form" data-toggle="modal" data-target="#open-enquiry" contenteditable="false">Enquiry Form</a>
+
+              </li>
+
+              <li class="dropdown dropdown-account">
+
+                <a href="#" class="dropdown-toggle" type="button" data-toggle="dropdown">Mark
+
+                  <span class="icon-user-circle-o"></span>
+
+                </a>
+
+                <ul class="dropdown-menu triangle">
+
+                  <p class="setting" data-toggle="modal" data-target="#account_profile">Account Settings</p>
+
+                  <li>
+
+                    <a href="#" class="dropdown-account" data-toggle="modal" data-target="#open-bookmark" contenteditable="false">
+
+                      <img src="assets/images/bookmark-white.svg" alt="bookmark"> My Bookmarks</a>
+
+                  </li>
+
+                  <li>
+
+                    <a href="#" class="dropdown-account" data-toggle="modal" data-target="#open-history" contenteditable="false">
+
+                      <img src="assets/images/history.svg" alt="history"> My History</a>
+
+                  </li>
+
+                  <p class="sign-out">Sign Out</p>
+
+                </ul>
+
+              </li>
+
+              <li class="menu-mobile">
+
+                <a href="#" class="setting" data-toggle="modal" data-target="#account_profile">Account Settings</a>
+
+                <a href="#" data-toggle="modal" data-target="#open-bookmark" contenteditable="false">My Bookmarks</a>
+
+                <a href="#" data-toggle="modal" data-target="#open-history" contenteditable="false">My History</a>
+
+                <a href="#">Sign Out</a>
+
+              </li>
+
+              <li>
+
+                <form name="search_form" id="search_form" method="post">
+
+                  <a href="javascript:void(0)" style="border:none" class='mobile-search-full'>
+
+                    <input style='display:none;' id='searchBar' name='search' type='search' placeholder='Search&hellip;'>
+
+                    <span class="icon-search search" id='toggle-search'></span>
+
+                  </a>
+
+                </form>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </nav>
+
+
+
+    <!-- 3D Canvas Iframe -->
+
+    <div id="canvas" class="iframe-canvas w-embed w-iframe">
+
+      <iframe id="booth-frame" src="xpo/booths/M01/M01.html" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
+
+    </div>
+
+
+
+    <!-- toggle button -->
+
+    <div class="footer-icon">
+
+      <div class="section-360deg">
+
+        <img class="360deg" src="assets/images/360deg.png" alt="360deg">
+
+        <p>Proudly powered by Xpomania.com</p>
+
+      </div>
+
+      <div class="toogle-right">
+
+        <div class="button-footer2">
+
+          <div class="dot2">
+
+            <button type="button" id="zoomin" class="zoomin zoom">+</button>
+
+            <button type="button" id="zoomout" class="zoomout zoom-out">-</button>
+
+          </div>
+
+        </div>
+
+
+
+        <!-- share float button -->
+
+        <nav class="float-action-button ">
+
+          <a class="buttons-social" title="Facebook" data-toggle="tooltip" data-placement="left">
+
+            <span data-url="http://fxm.web.id/app/xpomania/dev/xpo/" target="blank" class="st-custom-button icon-facebook" data-network="facebook"></span>
+
+          </a>
+
+          <a class="buttons-social" title="Twitter" data-toggle="tooltip" data-placement="left">
+
+            <span class="st-custom-button icon-twitter" data-network="twitter" data-image="assets/images/expo.jpg"></span>
+
+          </a>
+
+          <a class="buttons-social" data-network="email" title="Email" data-toggle="tooltip" data-placement="left">
+
+            <span class="st-custom-button icon-envelope-o" data-network="email"></span>
+
+          </a>
+
+          <a class="buttons-social main-button" title="Share" data-toggle="tooltip" data-placement="left">
+
+            <span class="icon-share2"></span>
+
+          </a>
+
+        </nav>
+
+
+
+        <!-- float button -->
+
+        <div class="button-footer">
+
+          <div class="dot">
+
+            <img id="info-btn" src="assets/images/info.svg" alt="info" title="Info" data-toggle="tooltip" data-placement="left">
+
+          </div>
+
+          <!-- <div class="dot">
+
+                      <img data-toggle="modal" data-target="#open-history" contenteditable="false" src="./../assets/images/history.svg" alt="history">
+
+                  </div> -->
+
+          <div class="dot bookmark-button">
+
+            <img src="assets/images/bookmark.svg" alt="bookmark" title="Bookmark" data-toggle="tooltip" data-placement="left">
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- toogle button -->
+
+    <div class="footer-toogle">
+
+      <!-- pop up key meeting -->
+
+      <div class="pop-up_key_instruction meeting-buttons" id="public-meeting" style="display: none;">
+
+        <div class="meeting-representative">
+
+          <div class="container">
+
+            <h4>MEETING ROOM</h4>
+
+            <span class="title-popup">Select one of our representative</span>
+
+            <div class="representative-list">
+
+              <div class="representative">
+
+                <div class="row">
+
+                  <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+
+                    <div class="speaker-img">
+
+                      <img src="assets/images/speaker-1.png" alt="speaker">
+
+                      <div class="status-speaker">
+
+                        <p>Representative 1</p>
+
+                        <div class="green-dot">
+
+                          <span>Available</span>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+
+                    <button class="btn-join" id="join-meeting" type="submit"> JOIN </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <hr>
+
+              <div class="representative">
+
+                <div class="row">
+
+                  <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+
+                    <div class="speaker-img">
+
+                      <img src="assets/images/speaker-2.png" alt="speaker">
+
+
+
+                      <div class="status-speaker">
+
+                        <p>Representative 2</p>
+
+                        <div class="red-dot">
+
+                          <span>Offline</span>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+
+                    <button class="btn-join_off" id="join-meeting" type="submit"> JOIN </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <hr>
+
+              <div class="representative">
+
+                <div class="row">
+
+                  <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+
+                    <div class="speaker-img">
+
+                      <img src="assets/images/speaker-3.png" alt="speaker">
+
+
+
+                      <div class="status-speaker">
+
+                        <p>Representative 3</p>
+
+                        <div class="gray-dot">
+
+                          <span>Busy</span>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+
+                    <button class="btn-join_off" id="join-meeting" type="submit"> JOIN </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <hr>
+
+              <div class="representative">
+
+                <div class="row">
+
+                  <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+
+                    <div class="speaker-img">
+
+                      <img src="assets/images/speaker-4.png" alt="speaker">
+
+                      <div class="status-speaker">
+
+                        <p>Representative 4</p>
+
+                        <div class="green-dot">
+
+                          <span>Available</span>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+
+                    <button class="btn-join" id="join-meeting" type="submit"> JOIN </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <hr>
+
+              <div class="representative">
+
+                <div class="row">
+
+                  <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+
+                    <div class="speaker-img">
+
+                      <img src="assets/images/speaker-5.png" alt="speaker">
+
+                      <div class="status-speaker">
+
+                        <p>Representative 5</p>
+
+                        <div class="green-dot">
+
+                          <span>Available</span>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+
+                    <button class="btn-join" id="join-meeting" type="submit"> JOIN </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <button class="close-key2">×</button>
+
+          </div>
+
+        </div>
+
+        <div class="request-private">
+
+          <a class="btn-request" data-toggle="modal" data-target="#private-meeting" contenteditable="false">REQUEST A PRIVATE MEETING</a>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- popup prev next -->
+
+      <div class="footer-popup">
+
+        <div class="prev-icon" id="prev_button">
+
+          <div class="prev">
+
+            <span class="icon-navigate_before"></span>
+
+            <span class="prev-text">Prev Booth</span>
+
+          </div>
+
+        </div>
+
+        <div class="home" id="home_button">
+
+          <img src="assets/images/home.svg" alt="home">
+
+        </div>
+
+        <div class="next-icon" id="next_button">
+
+          <div class="next">
+
+            <span href="#" class="next-text">Next Booth</span>
+
+            <span class="icon-navigate_next"></span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- open pop up video-->
+
+    <div id="vid-pop-up1" class="modal modal-popup_video fade in" role="dialog">
+
+      <button type="button" class="close" data-dismiss="modal" id="close-vid-popup1">&times;</button>
+
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+
+        <div class="modal-content">
+
+          <div class="modal-header">
+
+            <h4 class="modal-title">Car Show Event Vid</h4>
+
+          </div>
+
+          <div class="modal-body">
+
+            <div class='slick-slider'>
+
+
+
+            </div>
+
+          </div>
+
+          <div class="modal-footer">
+            <h4 class="modal-desc">Poster Desc</h4>
+            <div class="popup-toogle">
+
+              <div class="share">
+
+                <!-- <a href="#!">
+
+                      <span class="icon-share2"></span>
+
+                    </a> -->
+
+                <nav class="float-action-button share-btn">
+
+                  <a href="#!" class="buttons-social share-video" title="Facebook" data-toggle="tooltip" data-placement="left">
+
+                    <span data-url="http://fxm.web.id/app/xpomania/dev/xpo/" class="st-custom-button icon-facebook" data-network="facebook"></span>
+
+                  </a>
+
+                  <a href="#!" class="buttons-social share-video" title="Twitter" data-toggle="tooltip" data-placement="left">
+
+                    <span class="st-custom-button icon-twitter" data-network="twitter"></span>
+
+                  </a>
+
+                  <a href="#!" class="buttons-social share-video" title="Email" data-toggle="tooltip" data-placement="left">
+
+                    <span class="st-custom-button icon-envelope-o" data-network="email"></span>
+
+                  </a>
+
+                  <a href="#!" class="buttons-social main-button" title="Share" data-toggle="tooltip" data-placement="left">
+
+                    <span class="icon-share2"></span>
+
+                  </a>
+
+                </nav>
+
+              </div>
+
+              <div class="bookmark">
+
+                <a href="#!">
+
+                  <img src="assets/images/bookmark.svg" alt="bookmark" title="Bookmark" data-toggle="tooltip" data-placement="left">
+
+                </a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <div id="vid-pop-up2" class="modal modal-popup_video fade in" role="dialog">
+
+      <button type="button" class="close" data-dismiss="modal" id="close-vid-popup2">&times;</button>
+
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+
+        <div class="modal-content">
+
+          <div class="modal-header">
+
+            <h4 class="modal-title">Car Show Event Vid</h4>
+
+          </div>
+
+          <div class="modal-body">
+
+            <div class='slick-slider'>
+
+
+
+            </div>
+
+          </div>
+
+          <div class="modal-footer">
+            <h4 class="modal-desc">Poster Desc</h4>
+            <div class="popup-toogle">
+
+              <div class="share">
+
+                <!-- <a href="#!">
+
+                      <span class="icon-share2"></span>
+
+                    </a> -->
+
+                <nav class="float-action-button share-btn">
+
+                  <a href="#!" class="buttons-social share-video" title="Facebook" data-toggle="tooltip" data-placement="left">
+
+                    <span data-url="http://fxm.web.id/app/xpomania/dev/xpo/" class="st-custom-button icon-facebook" data-network="facebook"></span>
+
+                  </a>
+
+                  <a href="#!" class="buttons-social share-video" title="Twitter" data-toggle="tooltip" data-placement="left">
+
+                    <span class="st-custom-button icon-twitter" data-network="twitter"></span>
+
+                  </a>
+
+                  <a href="#!" class="buttons-social share-video" title="Email" data-toggle="tooltip" data-placement="left">
+
+                    <span class="st-custom-button icon-envelope-o" data-network="email"></span>
+
+                  </a>
+
+                  <a href="#!" class="buttons-social main-button" title="Share" data-toggle="tooltip" data-placement="left">
+
+                    <span class="icon-share2"></span>
+
+                  </a>
+
+                </nav>
+
+              </div>
+
+              <div class="bookmark">
+
+                <a href="#!">
+
+                  <img src="assets/images/bookmark.svg" alt="bookmark" title="Bookmark" data-toggle="tooltip" data-placement="left">
+
+                </a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <div id="vid-pop-up3" class="modal modal-popup_video fade in" role="dialog">
+
+      <button type="button" class="close" data-dismiss="modal" id="close-vid-popup3">&times;</button>
+
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+
+        <div class="modal-content">
+
+          <div class="modal-header">
+
+            <button type="button" class="close" data-dismiss="modal" id="close-vid-popup3">&times;</button>
+
+            <h4 class="modal-title">Car Show Event Vid</h4>
+
+          </div>
+
+          <div class="modal-body">
+
+            <div class='slick-slider'>
+
+
+
+            </div>
+
+          </div>
+
+          <div class="modal-footer">
+            <h4 class="modal-desc">Poster Desc</h4>
+            <div class="popup-toogle">
+
+              <div class="share">
+
+                <!-- <a href="#!">
+
+                      <span class="icon-share2"></span>
+
+                    </a> -->
+
+                <nav class="float-action-button share-btn">
+
+                  <a href="#!" class="buttons-social share-video" title="Facebook" data-toggle="tooltip" data-placement="left">
+
+                    <span data-url="http://fxm.web.id/app/xpomania/dev/xpo/" class="st-custom-button icon-facebook" data-network="facebook"></span>
+
+                  </a>
+
+                  <a href="#!" class="buttons-social share-video" title="Twitter" data-toggle="tooltip" data-placement="left">
+
+                    <span class="st-custom-button icon-twitter" data-network="twitter"></span>
+
+                  </a>
+
+                  <a href="#!" class="buttons-social share-video" title="Email" data-toggle="tooltip" data-placement="left">
+
+                    <span class="st-custom-button icon-envelope-o" data-network="email"></span>
+
+                  </a>
+
+                  <a href="#!" class="buttons-social main-button" title="Share" data-toggle="tooltip" data-placement="left">
+
+                    <span class="icon-share2"></span>
+
+                  </a>
+
+                </nav>
+
+              </div>
+
+              <div class="bookmark">
+
+                <a href="#!">
+
+                  <img src="assets/images/bookmark.svg" alt="bookmark" title="Bookmark" data-toggle="tooltip" data-placement="left">
+
+                </a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- open pop up poster -->
+
+    <div id="img-pop-up1" class="modal modal-popup fade in" role="dialog">
+
+      <button type="button" class="close" data-dismiss="modal" id="close-img-popup1">&times;</button>
+
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+
+        <div class="modal-content">
+
+          <div class="modal-header">
+
+            <h4 class="modal-title">Car Show Event Poster</h4>
+
+          </div>
+
+          <div class="modal-body">
+
+            <div class="slick-slider">
+
+
+
+            </div>
+
+          </div>
+
+          <div class="modal-footer">
+
+            <h4 class="modal-desc">Poster Desc</h4>
+            <div class="popup-toogle">
+
+              <div class="share">
+
+                <!-- <a href="#!">
+
+                  <span class="icon-share2"></span>
+
+                </a> -->
+
+                <nav class="float-action-button share-btn">
+
+                  <a class="buttons-social share-poster" title="Facebook" data-toggle="tooltip" data-placement="left">
+
+                    <span data-url="http://fxm.web.id/app/xpomania/dev/xpo/" class="st-custom-button icon-facebook" data-network="facebook"></span>
+
+                  </a>
+
+                  <a href="#!" class="buttons-social share-poster" title="Twitter" data-toggle="tooltip" data-placement="left">
+
+                    <span class="st-custom-button icon-twitter" data-network="twitter"></span>
+
+                  </a>
+
+                  <a href="#!" class="buttons-social share-poster" title="Email" data-toggle="tooltip" data-placement="left">
+
+                    <span class="st-custom-button icon-envelope-o" data-network="email"></span>
+
+                  </a>
+
+                  <a href="#!" class="buttons-social main-button" title="Share" data-toggle="tooltip" data-placement="left">
+
+                    <span class="icon-share2"></span>
+
+                  </a>
+
+                </nav>
+
+              </div>
+
+              <div class="bookmark">
+
+                <a href="#!">
+
+                  <img src="assets/images/bookmark.svg" alt="bookmark" title="Bookmark" data-toggle="tooltip" data-placement="left">
+
+                </a>
+
+              </div>
+
+              <div class="menu-dot">
+
+                <nav class="float-action-button setting-btn">
+
+                  <a href="#!" class="buttons-social button-fullscreen setting-poster" title="" data-toggle="tooltip" data-placement="left">
+
+                    <img src="assets/images/fullscreen.svg" alt="more">
+
+                  </a>
+
+                  <a href="#!" class="button-download buttons-social setting-poster" title="Download" data-toggle="tooltip" data-placement="left">
+
+                    <img src="assets/images/download.svg" alt="more">
+
+                  </a>
+
+                  <a href="#!" class="buttons-social setting-button" title="Setting" data-toggle="tooltip" data-placement="left">
+
+                    <img src="assets/images/more.svg" alt="more">
+
+                  </a>
+
+                </nav>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <div id="img-pop-up2" class="modal modal-popup fade in" role="dialog">
+
+      <button type="button" class="close" data-dismiss="modal" id="close-img-popup2">&times;</button>
+
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+
+        <div class="modal-content">
+
+          <div class="modal-header">
+
+            <h4 class="modal-title">Car Show Event Poster</h4>
+
+          </div>
+
+          <div class="modal-body">
+
+            <div class="slick-slider">
+
+
+
+            </div>
+
+          </div>
+
+          <div class="modal-footer">
+            <h4 class="modal-desc">Poster Desc</h4>
+            <div class="popup-toogle">
+
+              <div class="share">
+
+                <!-- <a href="#!">
+
+                  <span class="icon-share2"></span>
+
+                </a> -->
+
+                <nav class="float-action-button share-btn">
+
+                  <a href="#!" class="buttons-social share-poster" title="Facebook" data-toggle="tooltip" data-placement="left">
+
+                    <span data-url="http://fxm.web.id/app/xpomania/dev/xpo/" class="st-custom-button icon-facebook" data-network="facebook"></span>
+
+                  </a>
+
+                  <a href="#!" class="buttons-social share-poster" title="Twitter" data-toggle="tooltip" data-placement="left">
+
+                    <span class="st-custom-button icon-twitter" data-network="twitter"></span>
+
+                  </a>
+
+                  <a href="#!" class="buttons-social share-poster" title="Email" data-toggle="tooltip" data-placement="left">
+
+                    <span class="st-custom-button icon-envelope-o" data-network="email"></span>
+
+                  </a>
+
+                  <a href="#!" class="buttons-social main-button" title="Share" data-toggle="tooltip" data-placement="left">
+
+                    <span class="icon-share2"></span>
+
+                  </a>
+
+                </nav>
+
+              </div>
+
+              <div class="bookmark">
+
+                <a href="#!">
+
+                  <img src="assets/images/bookmark.svg" alt="bookmark" title="Bookmark" data-toggle="tooltip" data-placement="left">
+
+                </a>
+
+              </div>
+
+              <div class="menu-dot">
+
+                <nav class="float-action-button setting-btn">
+
+                  <a href="#!" class="buttons-social button-fullscreen setting-poster" title="" data-toggle="tooltip" data-placement="left">
+
+                    <img src="assets/images/fullscreen.svg" alt="more">
+
+                  </a>
+
+                  <a href="#!" class="button-download buttons-social setting-poster" title="Download" data-toggle="tooltip" data-placement="left">
+
+                    <img src="assets/images/download.svg" alt="more">
+
+                  </a>
+
+                  <a href="#!" class="buttons-social setting-button" title="Setting" data-toggle="tooltip" data-placement="left">
+
+                    <img src="assets/images/more.svg" alt="more">
+
+                  </a>
+
+                </nav>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <div id="img-pop-up3" class="modal modal-popup fade in" role="dialog">
+
+      <button type="button" class="close" data-dismiss="modal" id="close-img-popup3">&times;</button>
+
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+
+        <div class="modal-content">
+
+          <div class="modal-header">
+
+            <h4 class="modal-title">Car Show Event Poster</h4>
+
+          </div>
+
+          <div class="modal-body">
+
+            <div class="slick-slider">
+
+
+
+            </div>
+
+          </div>
+
+          <div class="modal-footer">
+            <h4 class="modal-desc">Poster Desc</h4>
+            <div class="popup-toogle">
+
+              <div class="share">
+
+                <!-- <a href="#!">
+
+                      <span class="icon-share2"></span>
+
+                    </a> -->
+
+                <nav class="float-action-button share-btn">
+
+                  <a href="#!" class="buttons-social share-poster" title="Facebook" data-toggle="tooltip" data-placement="left">
+
+                    <span data-url="http://fxm.web.id/app/xpomania/dev/xpo/" class="st-custom-button icon-facebook" data-network="facebook"></span>
+
+                  </a>
+
+                  <a href="#!" class="buttons-social share-poster" title="Twitter" data-toggle="tooltip" data-placement="left">
+
+                    <span class="st-custom-button icon-twitter" data-network="twitter"></span>
+
+                  </a>
+
+                  <a href="#!" class="buttons-social share-poster" title="Email" data-toggle="tooltip" data-placement="left">
+
+                    <span class="st-custom-button icon-envelope-o" data-network="email"></span>
+
+                  </a>
+
+                  <a href="#!" class="buttons-social main-button" title="Share" data-toggle="tooltip" data-placement="left">
+
+                    <span class="icon-share2"></span>
+
+                  </a>
+
+                </nav>
+
+              </div>
+
+              <div class="bookmark">
+
+                <a href="#!">
+
+                  <img src="assets/images/bookmark.svg" alt="bookmark" title="Bookmark" data-toggle="tooltip" data-placement="left">
+
+                </a>
+
+              </div>
+
+              <div class="menu-dot">
+
+                <nav class="float-action-button setting-btn">
+
+                  <a href="#!" class="buttons-social button-fullscreen setting-poster" title="" data-toggle="tooltip" data-placement="left">
+
+                    <img src="assets/images/fullscreen.svg" alt="more">
+
+                  </a>
+
+                  <a href="#!" class="button-download buttons-social setting-poster" title="Download" data-toggle="tooltip" data-placement="left">
+
+                    <img src="assets/images/download.svg" alt="more">
+
+                  </a>
+
+                  <a href="#!" class="buttons-social setting-button" title="Setting" data-toggle="tooltip" data-placement="left">
+
+                    <img src="assets/images/more.svg" alt="more">
+
+                  </a>
+
+                </nav>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <div id="img-pop-up4" class="modal modal-popup fade in" role="dialog">
+
+      <button type="button" class="close" data-dismiss="modal" id="close-img-popup4">&times;</button>
+
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+
+        <div class="modal-content">
+
+          <div class="modal-header">
+
+            <h4 class="modal-title">Car Show Event Poster</h4>
+
+          </div>
+
+          <div class="modal-body">
+
+            <div class="slick-slider">
+
+
+
+            </div>
+
+          </div>
+
+          <div class="modal-footer">
+
+            <h4 class="modal-desc">Poster Desc</h4>
+            <div class="popup-toogle">
+
+              <div class="share">
+
+                <!-- <a href="#!">
+
+                      <span class="icon-share2"></span>
+
+                    </a> -->
+
+                <nav class="float-action-button share-btn">
+
+                  <a href="#!" class="buttons-social share-poster" title="Facebook" data-toggle="tooltip" data-placement="left">
+
+                    <span data-url="http://fxm.web.id/app/xpomania/dev/xpo/" class="st-custom-button icon-facebook" data-network="facebook"></span>
+
+                  </a>
+
+                  <a href="#!" class="buttons-social share-poster" title="Twitter" data-toggle="tooltip" data-placement="left">
+
+                    <span class="st-custom-button icon-twitter" data-network="twitter"></span>
+
+                  </a>
+
+                  <a href="#!" class="buttons-social share-poster" title="Email" data-toggle="tooltip" data-placement="left">
+
+                    <span class="st-custom-button icon-envelope-o" data-network="email"></span>
+
+                  </a>
+
+                  <a href="#!" class="buttons-social main-button" title="Share" data-toggle="tooltip" data-placement="left">
+
+                    <span class="icon-share2"></span>
+
+                  </a>
+
+                </nav>
+
+              </div>
+
+              <div class="bookmark">
+
+                <a href="#!">
+
+                  <img src="assets/images/bookmark.svg" alt="bookmark" title="Bookmark" data-toggle="tooltip" data-placement="left">
+
+                </a>
+
+              </div>
+
+              <div class="menu-dot">
+
+                <nav class="float-action-button setting-btn">
+
+                  <a href="#!" class="buttons-social button-fullscreen setting-poster" title="" data-toggle="tooltip" data-placement="left">
+
+                    <img src="assets/images/fullscreen.svg" alt="more">
+
+                  </a>
+
+                  <a href="#!" class="button-download buttons-social setting-poster" title="Download" data-toggle="tooltip" data-placement="left">
+
+                    <img src="assets/images/download.svg" alt="more">
+
+                  </a>
+
+                  <a href="#!" class="buttons-social setting-button" title="Setting" data-toggle="tooltip" data-placement="left">
+
+                    <img src="assets/images/more.svg" alt="more">
+
+                  </a>
+
+                </nav>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- bookmark content popup  -->
+
+    <div id="bookmark-poster-popup" class="modal modal-popup fade in" role="dialog">
+
+      <button type="button" class="close" data-dismiss="modal" id="close-img-popup1">&times;</button>
+
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+
+        <div class="modal-content">
+
+          <div class="modal-header">
+
+            <h4 class="modal-title">Car Show Event Poster</h4>
+
+          </div>
+
+          <div class="modal-body">
+
+            <div class="slick-slider">
+
+
+
+            </div>
+
+          </div>
+
+          <div class="modal-footer">
+            <h4 class="modal-desc">Poster Desc</h4>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <div id="bookmark-video-popup" class="modal modal-popup_video fade in" role="dialog">
+
+      <button type="button" class="close" data-dismiss="modal" id="close-vid-popup1">&times;</button>
+
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+
+        <div class="modal-content">
+
+          <div class="modal-header">
+
+            <h4 class="modal-title">Car Show Event Vid</h4>
+
+          </div>
+
+          <div class="modal-body">
+
+            <div class='slick-slider'>
+
+
+
+            </div>
+
+          </div>
+
+          <div class="modal-footer">
+            <h4 class="modal-desc">Poster Desc</h4>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- view seminar video -->
+
+    <div class="modal modal-seminar" id="open-viewSeminar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+      <button type="button" class="close" id="close-seminar" data-dismiss="modal" aria-hidden="true">×</button>
+
+      <div class="modal-dialog">
+
+        <div class="modal-content" id="seminar_content">
+
+          <div class="modal-header">
+
+            <h2 class="live_stream">SEMINAR</h2>
+
+          </div>
+
+          <div class="modal-body">
+
+            <div class="video-transition__section">
+
+              <video src="" type="video/mp4" id="video-local" width="100%" controls="false">
+
+              </video>
+
+            </div>
+
+            <div class="navbar_tab">
+
+              <ul class="nav nav-pills nav-justified nav-desktop">
+
+                <li class="nav-item active">
+
+                  <a class="nav-link active" data-toggle="pill" href="#live_stream" role="tab" aria-controls="pills-live_stream" aria-selected="true">WATCH LIVE STREAM</a>
+
+                </li>
+
+                <li class="nav-item">
+
+                  <a class="nav-link " data-toggle="pill" href="#speaker_schedule" role="tab" aria-controls="pills-speaker_schedule" aria-selected="false">VIEW SPEAKER SCHEDULE</a>
+
+                </li>
+
+                <li class="nav-item">
+
+                  <a class="nav-link " data-toggle="pill" href="#record_video" role="tab" aria-controls="pills-record_video" aria-selected="false">RECORDED VIDEOS</a>
+
+                </li>
+
+                <li class="nav-item">
+
+                  <a class="nav-link " data-toggle="pill" href="#zoom_webinar" role="tab" aria-controls="pills-zoom_webinar" aria-selected="false">ZOOM WEBINAR</a>
+
+                </li>
+
+              </ul>
+
+              <ul class="nav nav-pills nav-justified nav-mobile">
+
+                <li class="nav-item active">
+
+                  <a class="nav-link active" data-toggle="pill" href="#live_stream" role="tab" aria-controls="pills-live_stream" aria-selected="true">Live</a>
+
+                </li>
+
+                <li class="nav-item">
+
+                  <a class="nav-link " data-toggle="pill" href="#speaker_schedule" role="tab" aria-controls="pills-speaker_schedule" aria-selected="false">Schedule</a>
+
+                </li>
+
+                <li class="nav-item">
+
+                  <a class="nav-link " data-toggle="pill" href="#record_video" role="tab" aria-controls="pills-record_video" aria-selected="false">Videos</a>
+
+                </li>
+
+                <li class="nav-item">
+
+                  <a class="nav-link " data-toggle="pill" href="#zoom_webinar" role="tab" aria-controls="pills-zoom_webinar" aria-selected="false">Webinar</a>
+
+                </li>
+
+              </ul>
+
+              <div class="tab-content mt-3">
+
+                <h4 class="seminar-unavailability-msg" style="display: none"></h4>
+
+                <div class="tab-pane fade active in" id="live_stream" role="tabpanel" aria-labelledby="live_stream-tab">
+
+                  <div class="video-seminar__section">
+
+                    <!-- uncomment if using video local -->
+
+                    <video allowfullscreen id="video-seminar" width="100%"  controls style="display: none;">
+
+                      <source control src="" type="video/mp4">
+
+                    </video>
+
+                    <!-- uncomment if using video youtube -->
+
+                    <iframe allowfullscreen class="seminar-youtube" id="seminar-youtube" width="100%" src="" frameborder="0" style="display:none"
+                      controls>
+
+                    </iframe>
+
+                  </div>
+
+                </div>
+
+                <div class="tab-pane fade" id="speaker_schedule" role="tabpanel" aria-labelledby="speaker_schedule-tab">
+
+                  <div class="speaker-schedule_section">
+
+                    <div class="speaker_schedule">
+
+                      <div class="row">
+
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+                          <h4>DAY 1</h4>
+
+                          <h5 class="date_agenda">Wednesday, 4 November 2020</h5>
+
+                          <div class="content_desc">
+
+                            <div class="timeline">
+
+                              <div class="dot"></div>
+
+                            </div>
+
+                            <div class="speaker_description">
+
+                              <div class="content_description">
+
+                                <p class="title_streaming">The medical potential of AI and metabolities</p>
+
+                                <p class="date_streaming">3 November 2020 | 10 A.M - 10.30 A.M</p>
+
+                                <h5>Speaker : Dr. Catherine Maxwell</h5>
+
+                              </div>
+
+                            </div>
+
+                          </div>
+
+                          <div class="content_desc">
+
+                            <div class="timeline">
+
+                              <div class="dot"></div>
+
+                            </div>
+
+                            <div class="speaker_description">
+
+                              <div class="content_description">
+
+                                <p class="title_streaming">The medical potential of AI and metabolities</p>
+
+                                <p class="date_streaming">3 November 2020 | 10 A.M - 10.30 A.M</p>
+
+                                <h5>Speaker : Dr. Catherine Maxwell</h5>
+
+                                <!-- <a class="status_streaming" href="#">LIVE NOW</a> -->
+
+                              </div>
+
+                            </div>
+
+                          </div>
+
+                          <div class="content_desc">
+
+                            <div class="timeline">
+
+                              <div class="dot"></div>
+
+                            </div>
+
+                            <div class="speaker_description">
+
+                              <div class="content_description">
+
+                                <p class="title_streaming">The medical potential of AI and metabolities</p>
+
+                                <p class="date_streaming">3 November 2020 | 10 A.M - 10.30 A.M</p>
+
+                                <h5>Speaker : Dr. Catherine Maxwell</h5>
+
+                              </div>
+
+                            </div>
+
+                          </div>
+
+                          <div class="content_desc">
+
+                            <div class="timeline">
+
+                              <div class="dot"></div>
+
+                            </div>
+
+                            <div class="speaker_description">
+
+                              <div class="content_description">
+
+                                <p class="title_streaming">The medical potential of AI and metabolities</p>
+
+                                <p class="date_streaming">3 November 2020 | 10 A.M - 10.30 A.M</p>
+
+                                <h5>Speaker : Dr. Catherine Maxwell</h5>
+
+                              </div>
+
+                            </div>
+
+                          </div>
+
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+                          <h4>DAY 2</h4>
+
+                          <h5 class="date_agenda">Wednesday, 4 November 2020</h5>
+
+                          <div class="content_desc">
+
+                            <div class="timeline">
+
+                              <div class="dot"></div>
+
+                            </div>
+
+                            <div class="speaker_description">
+
+                              <div class="content_description">
+
+                                <p class="title_streaming">The medical potential of AI and metabolities</p>
+
+                                <p class="date_streaming">3 November 2020 | 10 A.M - 10.30 A.M</p>
+
+                                <h5>Speaker : Dr. Catherine Maxwell</h5>
+
+                              </div>
+
+                            </div>
+
+                          </div>
+
+                          <div class="content_desc">
+
+                            <div class="timeline">
+
+                              <div class="dot"></div>
+
+                            </div>
+
+                            <div class="speaker_description">
+
+                              <div class="content_description">
+
+                                <p class="title_streaming">The medical potential of AI and metabolities</p>
+
+                                <p class="date_streaming">3 November 2020 | 10 A.M - 10.30 A.M</p>
+
+                                <h5>Speaker : Dr. Catherine Maxwell</h5>
+
+                                <!-- <a class="status_streaming" href="#">
+
+                                      LIVE NOW
+
+                                    </a> -->
+
+                              </div>
+
+                            </div>
+
+                          </div>
+
+                          <div class="content_desc">
+
+                            <div class="timeline">
+
+                              <div class="dot"></div>
+
+                            </div>
+
+                            <div class="speaker_description">
+
+                              <div class="content_description">
+
+                                <p class="title_streaming">The medical potential of AI and metabolities</p>
+
+                                <p class="date_streaming">3 November 2020 | 10 A.M - 10.30 A.M</p>
+
+                                <h5>Speaker : Dr. Catherine Maxwell</h5>
+
+                              </div>
+
+                            </div>
+
+                          </div>
+
+                          <div class="content_desc">
+
+                            <div class="timeline">
+
+                              <div class="dot"></div>
+
+                            </div>
+
+                            <div class="speaker_description">
+
+                              <div class="content_description">
+
+                                <p class="title_streaming">The medical potential of AI and metabolities</p>
+
+                                <p class="date_streaming">3 November 2020 | 10 A.M - 10.30 A.M</p>
+
+                                <h5>Speaker : Dr. Catherine Maxwell</h5>
+
+                              </div>
+
+                            </div>
+
+                          </div>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="tab-pane fade" id="record_video" role="tabpanel" aria-labelledby="record_video-tab">
+
+                  <div class="video_record-section">
+
+                    <div class="video_record">
+
+                      <div class="row">
+
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+
+                          <div class="video_desc">
+
+                            <img src="assets/images/video-rec_1.png" alt="video">
+
+                            <div class="desc">
+
+                              <p class="title">Technology Artificial Intelligence Signals of Change Creativity</p>
+
+                              <p class="speaker">John Parker</p>
+
+                            </div>
+
+                          </div>
+
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+
+                          <div class="video_desc">
+
+                            <img src="assets/images/video-rec_1.png" alt="video">
+
+                            <div class="desc">
+
+                              <p class="title">Technology Artificial Intelligence Signals of Change Creativity</p>
+
+                              <p class="speaker">John Parker</p>
+
+                            </div>
+
+                          </div>
+
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+
+                          <div class="video_desc">
+
+                            <img src="assets/images/video-rec_1.png" alt="video">
+
+                            <div class="desc">
+
+                              <p class="title">Technology Artificial Intelligence Signals of Change Creativity</p>
+
+                              <p class="speaker">John Parker</p>
+
+                            </div>
+
+                          </div>
+
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+
+                          <div class="video_desc">
+
+                            <img src="assets/images/video-rec_1.png" alt="video">
+
+                            <div class="desc">
+
+                              <p class="title">Technology Artificial Intelligence Signals of Change Creativity</p>
+
+                              <p class="speaker">John Parker</p>
+
+                            </div>
+
+                          </div>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+
+
+                  </div>
+
+                </div>
+
+                <div class="tab-pane fade" id="zoom_webinar" role="tabpanel" aria-labelledby="zoom_webinar-tab">
+
+                  <div class="speaker-schedule_section">
+
+                    <div class="speaker_schedule">
+
+                      <div class="row">
+
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+                          <h4>DAY 1</h4>
+
+                          <h5 class="date_agenda">Wednesday, 4 November 2020</h5>
+
+                          <div class="content_desc">
+
+                            <div class="timeline">
+
+                              <div class="dot"></div>
+
+                            </div>
+
+                            <div class="speaker_description">
+
+                              <div class="content_description">
+
+                                <p class="title_streaming">The medical potential of AI and metabolities</p>
+
+                                <p class="date_streaming">3 November 2020 | 10 A.M - 10.30 A.M</p>
+
+                                <h5>Speaker : Dr. Catherine Maxwell</h5>
+
+                              </div>
+
+                            </div>
+
+                          </div>
+
+                          <div class="content_desc">
+
+                            <div class="timeline">
+
+                              <div class="dot"></div>
+
+                            </div>
+
+                            <div class="speaker_description">
+
+                              <div class="content_description">
+
+                                <p class="title_streaming">The medical potential of AI and metabolities</p>
+
+                                <p class="date_streaming">3 November 2020 | 10 A.M - 10.30 A.M</p>
+
+                                <h5>Speaker : Dr. Catherine Maxwell</h5>
+
+                                <!-- <a class="status_streaming" href="#">LIVE NOW</a> -->
+
+                              </div>
+
+                            </div>
+
+                          </div>
+
+                          <div class="content_desc">
+
+                            <div class="timeline">
+
+                              <div class="dot"></div>
+
+                            </div>
+
+                            <div class="speaker_description">
+
+                              <div class="content_description">
+
+                                <p class="title_streaming">The medical potential of AI and metabolities</p>
+
+                                <p class="date_streaming">3 November 2020 | 10 A.M - 10.30 A.M</p>
+
+                                <h5>Speaker : Dr. Catherine Maxwell</h5>
+
+                              </div>
+
+                            </div>
+
+                          </div>
+
+                          <div class="content_desc">
+
+                            <div class="timeline">
+
+                              <div class="dot"></div>
+
+                            </div>
+
+                            <div class="speaker_description">
+
+                              <div class="content_description">
+
+                                <p class="title_streaming">The medical potential of AI and metabolities</p>
+
+                                <p class="date_streaming">3 November 2020 | 10 A.M - 10.30 A.M</p>
+
+                                <h5>Speaker : Dr. Catherine Maxwell</h5>
+
+                              </div>
+
+                            </div>
+
+                          </div>
+
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+                          <h4>DAY 2</h4>
+
+                          <h5 class="date_agenda">Wednesday, 4 November 2020</h5>
+
+                          <div class="content_desc">
+
+                            <div class="timeline">
+
+                              <div class="dot"></div>
+
+                            </div>
+
+                            <div class="speaker_description">
+
+                              <div class="content_description">
+
+                                <p class="title_streaming">The medical potential of AI and metabolities</p>
+
+                                <p class="date_streaming">3 November 2020 | 10 A.M - 10.30 A.M</p>
+
+                                <h5>Speaker : Dr. Catherine Maxwell</h5>
+
+                              </div>
+
+                            </div>
+
+                          </div>
+
+                          <div class="content_desc">
+
+                            <div class="timeline">
+
+                              <div class="dot"></div>
+
+                            </div>
+
+                            <div class="speaker_description">
+
+                              <div class="content_description">
+
+                                <p class="title_streaming">The medical potential of AI and metabolities</p>
+
+                                <p class="date_streaming">3 November 2020 | 10 A.M - 10.30 A.M</p>
+
+                                <h5>Speaker : Dr. Catherine Maxwell</h5>
+
+                                <!-- <a class="status_streaming" href="#">
+
+                                      LIVE NOW
+
+                                    </a> -->
+
+                              </div>
+
+                            </div>
+
+                          </div>
+
+                          <div class="content_desc">
+
+                            <div class="timeline">
+
+                              <div class="dot"></div>
+
+                            </div>
+
+                            <div class="speaker_description">
+
+                              <div class="content_description">
+
+                                <p class="title_streaming">The medical potential of AI and metabolities</p>
+
+                                <p class="date_streaming">3 November 2020 | 10 A.M - 10.30 A.M</p>
+
+                                <h5>Speaker : Dr. Catherine Maxwell</h5>
+
+                              </div>
+
+                            </div>
+
+                          </div>
+
+                          <div class="content_desc">
+
+                            <div class="timeline">
+
+                              <div class="dot"></div>
+
+                            </div>
+
+                            <div class="speaker_description">
+
+                              <div class="content_description">
+
+                                <p class="title_streaming">The medical potential of AI and metabolities</p>
+
+                                <p class="date_streaming">3 November 2020 | 10 A.M - 10.30 A.M</p>
+
+                                <h5>Speaker : Dr. Catherine Maxwell</h5>
+
+                              </div>
+
+                            </div>
+
+                          </div>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="seminar-branching" style="display:none">
+
+              <h3 class="seminar-branching__title">WELCOME TO THE SEMINAR ROOM</h3>
+
+              <h4 class="seminar-branching__desc">Please select where do you would like to attend</span>
+
+              </h4>
+
+              <div class="seminar-branching__button">
+
+                <button type="button" class="btn btn-live">LIVE</button>
+
+                <button type="button" class="btn btn-schedule">SCHEDULE</button>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- modal input name and email for zoom webinar -->
+
+    <div class="modal modal-form-webinar fade" id="open-input-webinar" role="dialog">
+
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+
+        <div class="modal-content">
+
+          <div class="modal-header">
+
+            <h6 class="modal-title">Before join this webinar, Xpomania need to confirm your identity. You can either login, or submit your name and email. Thank you.</h6>
+
+          </div>
+
+          <div class="modal-body">
+
+            <form class="form-data-webinar">
+
+              <input type="hidden" id="webinar-data-title" name="webinar-data-title" value="Zoom Webinar">
+              <input type="hidden" id="webinar-data-url" name="webinar-data-url" value="https://www.google.com/">
+
+              <div class="data-webinar-name">
+
+                <label>Name</label>
+
+                <input type="text" class="webinar-data-name" id="webinar-data-name" name="webinar-data-name" placeholder="Name" required>
+
+              </div>
+
+              <div class="data-webinar-email">
+
+                <label>Email</label>
+
+                <input type="email" class="webinar-data-email" id="webinar-data-email" name="webinar-data-email" placeholder="Email" required>
+
+              </div>
+
+              <div class="submit">
+
+                <button id="btn-submit-webinar" class="btn-submit2" type="submit"> Submit </button>
+
+              </div>
+
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="modal modal-webinar fade" id="open-webinar" role="dialog">
+
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+
+        <div class="modal-content">
+
+          <div class="modal-header">
+
+            <h4 class="modal-title">Zoom Webinar</h4>
+
+          </div>
+
+          <div class="modal-body">
+
+            <iframe class="zoom-webinar-frame" src="https://dev.xpomania.com/public-pages/webinar/?name=Mickey&id=88240429146&pwd=RkRuRlUzait6NXBkQVAzbFZqZGNRdz09&email=mickey@gmail.com&role=0&lang=en-US&standalone=true"></iframe>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- open search -->
+
+    <div class="modal modal-search fade modal-fullscreen  footer-to-bottom" id="open-search" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+      aria-hidden="true">
+
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+      <div class="modal-dialog">
+
+        <div class="modal-content">
+
+          <div class="modal-body">
+
+            <div class="search-bar right-search">
+
+              <span class="icon-search" data-toggle="modal" data-target="#search-page" contenteditable="false"></span>
+
+              <input type="text" placeholder="Search..">
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- view map -->
+
+    <div class="modal modal-booth fade modal-fullscreen  footer-to-bottom" id="open-viewMap" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+      aria-hidden="true">
+
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+      <div class="modal-dialog">
+
+        <div class="modal-content">
+
+          <div class="modal-body">
+
+            <h4 class="map-title">MAPS</h4>
+
+            <div class="navbar_map_tab">
+
+              <div class="map_menu_left">
+
+                <a id="goto-basic">BASIC</a>
+
+              </div>
+
+              <div class="map_menu_center">
+
+                <a id="goto-premium">PREMIUM</a>
+
+              </div>
+
+              <div class="map_menu_right">
+
+                <a id="goto-pro">PRO</a>
+
+              </div>
+
+            </div>
+
+            <div class="map-container">
+
+              <div id="floorPlan">
+
+              </div>
+
+              <div class="toggle-btn_basic">
+
+                <span class="switch">
+
+                  <label>2D</label>
+
+                  <input type="checkbox" class="switch" id="switch-id_basic">
+
+                  <label for="switch-id_basic">3D</label>
+
+                </span>
+
+              </div>
+
+              <div class="toggle-btn_pro">
+
+                <span class="switch">
+
+                  <label>2D</label>
+
+                  <input type="checkbox" class="switch" id="switch-id_pro">
+
+                  <label for="switch-id_pro">3D</label>
+
+                </span>
+
+              </div>
+
+              <div class="toggle-btn_premium">
+
+                <span class="switch">
+
+                  <label>2D</label>
+
+                  <input type="checkbox" class="switch" id="switch-id_premium">
+
+                  <label for="switch-id_premium">3D</label>
+
+                </span>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- view listing -->
+
+    <div class="modal modal-booth fade modal-fullscreen  footer-to-bottom" id="open-viewListing" tabindex="-1" role="dialog"
+      aria-labelledby="myModalLabel" aria-hidden="true">
+
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+      <div class="modal-dialog">
+
+        <div class="modal-content">
+
+          <div class="modal-body">
+
+            <div class="map-images">
+
+              <div class="row">
+
+
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- open history -->
+
+    <div class="modal modal-history fade modal-fullscreen  footer-to-bottom" id="open-history" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+      aria-hidden="true">
+
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+      <div class="modal-dialog">
+
+        <div class="modal-content">
+
+          <div class="modal-body">
+
+            <div class="history-content">
+
+              <h3>HISTORY</h3>
+
+              <div class="history-list">
+
+                <div class="history-image">
+
+                  <img src="assets/images/history-1.png" alt="history">
+
+                </div>
+
+                <div class="history-desc">
+
+                  <div class="desc">
+
+                    <h4>Shared Automative Event Poster</h4>
+
+                    <p>25 Juni 2020, 3:23 PM</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="history-list">
+
+                <div class="history-image">
+
+                  <img src="assets/images/history-1.png" alt="history">
+
+                </div>
+
+                <div class="history-desc">
+
+                  <div class="desc">
+
+                    <h4>Shared Automative Commercial Video</h4>
+
+                    <p>25 Juni 2020, 3:00 PM</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="history-list">
+
+                <div class="history-image">
+
+                  <img src="assets/images/history-3.png" alt="history">
+
+                </div>
+
+                <div class="history-desc">
+
+                  <div class="desc">
+
+                    <h4>Join Public Meeting at SmarDev Booth</h4>
+
+                    <p>25 Juni 2020, 2:23 PM</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="history-list">
+
+                <div class="history-image">
+
+                  <img src="assets/images/history-4.png" alt="history">
+
+                </div>
+
+                <div class="history-desc">
+
+                  <div class="desc">
+
+                    <h4>JRequest a quote at Omega Booth</h4>
+
+                    <p>25 Juni 2020, 2:06 PM</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- open bookmark -->
+
+    <div class="modal modal-bookmark fade modal-fullscreen  footer-to-bottom" id="open-bookmark" tabindex="-1" role="dialog"
+      aria-labelledby="myModalLabel" aria-hidden="true">
+
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+      <div class="modal-dialog">
+
+        <div class="modal-content">
+
+          <div class="modal-body">
+
+            <div class="bookmark-content">
+
+              <h3>BOOKMARK</h3>
+
+              <div class="row">
+
+                <h4>You don't have any bookmark yet</h4>
+
+                <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+
+                  <div class="bookmark">
+
+                    <img src="assets/images/Poster-01.jpg" alt="bookmark">
+
+                    <div class="overlay"></div>
+
+                    <figcaption>ROBOTIC - EVENT POSTER</figcaption>
+
+                  </div>
+
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+
+                  <div class="bookmark">
+
+                    <img src="assets/images/Poster-02.jpg" alt="bookmark">
+
+                    <div class="overlay"></div>
+
+                    <figcaption>AUTOMOTIVE - EVENT POSTER</figcaption>
+
+                  </div>
+
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+
+                  <div class="bookmark">
+
+                    <img src="assets/images/card-3.png" alt="bookmark">
+
+                    <div class="overlay"></div>
+
+                    <figcaption>AUTOMOTIVE - COMMERCIAL VIDEO</figcaption>
+
+                  </div>
+
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+
+                  <div class="bookmark">
+
+                    <img src="assets/images/card-4.png" alt="bookmark">
+
+                    <div class="overlay"></div>
+
+                    <figcaption>PAUL WALKER - SPEECH</figcaption>
+
+                  </div>
+
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+
+                  <div class="bookmark">
+
+                    <img src="assets/images/card-5.png" alt="bookmark">
+
+                    <div class="overlay"></div>
+
+                    <figcaption>SMARTDEV - EVENT POSTER</figcaption>
+
+                  </div>
+
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+
+                  <div class="bookmark">
+
+                    <img src="assets/images/card-6.png" alt="bookmark">
+
+                    <div class="overlay"></div>
+
+                    <figcaption>XPOMANIA - HOW IT WORKS</figcaption>
+
+                  </div>
+
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+
+                  <div class="bookmark">
+
+                    <img src="assets/images/card-1.png" alt="bookmark">
+
+                    <div class="overlay"></div>
+
+                    <figcaption>ROBOTIC - EVENT POSTER</figcaption>
+
+                  </div>
+
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+
+                  <div class="bookmark">
+
+                    <img src="assets/images/card-2.png" alt="bookmark">
+
+                    <div class="overlay"></div>
+
+                    <figcaption>AUTOMOTIVE - EVENT POSTER</figcaption>
+
+                  </div>
+
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+
+                  <div class="bookmark">
+
+                    <img src="assets/images/card-3.png" alt="bookmark">
+
+                    <div class="overlay"></div>
+
+                    <figcaption>AUTOMOTIVE - COMMERCIAL VIDEO</figcaption>
+
+                  </div>
+
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+
+                  <div class="bookmark">
+
+                    <img src="assets/images/card-4.png" alt="bookmark">
+
+                    <div class="overlay"></div>
+
+                    <figcaption>PAUL WALKER - SPEECH</figcaption>
+
+                  </div>
+
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+
+                  <div class="bookmark">
+
+                    <img src="assets/images/card-5.png" alt="bookmark">
+
+                    <div class="overlay"></div>
+
+                    <figcaption>SMARTDEV - EVENT POSTER</figcaption>
+
+                  </div>
+
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+
+                  <div class="bookmark">
+
+                    <img src="assets/images/card-6.png" alt="bookmark">
+
+                    <div class="overlay"></div>
+
+                    <figcaption>XPOMANIA - HOW IT WORKS</figcaption>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- Modal Enquiry Form-->
+
+    <div class="modal modal-enquiry fade" id="open-enquiry" role="dialog">
+
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+
+        <div class="modal-content">
+
+          <div class="modal-header">
+
+            <h4 class="modal-title">ENQUIRIES FORM</h4>
+
+            <p>If you have any queries on Sales please take a moment to fill up this form and one of our sales representative
+              will contact you soon</p>
+
+          </div>
+
+          <div class="modal-body">
+
+            <form class="form-enquiry">
+
+              <div class="row">
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+                  <label>Name*</label>
+
+                  <input type="text" class="enq_name" id="enq_name" name="name" placeholder="Name" required>
+
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+                  <label>Company*</label>
+
+                  <input type="text" class="enq_company" id="enq_company" name="company" placeholder="Company" required>
+
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+                  <label>Email*</label>
+
+                  <input type="email" class="enq_email" id="enq_email" name="email" placeholder="Email" required>
+
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+                  <label>Office Phone Number*</label>
+
+                  <input type="number" class="enq_phone" id="enq_phone" name="phone" placeholder="Office Phone Number" required>
+
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+                  <label>Mobile Number*</label>
+
+                  <input type="number" class="enq_mobile" id="enq_mobile" name="mobile" placeholder="Mobile Number" required>
+
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+                  <label>Fax</label>
+
+                  <input type="text" class="enq_fax" id="enq_fax" name="fax" placeholder="Fax">
+
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+                  <label>Addres 1</label>
+
+                  <input type="text" class="enq_address1" id="enq_address1" name="address1" placeholder="Address 1">
+
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+                  <label>Addres 2</label>
+
+                  <input type="text" class="enq_address2" id="enq_address2" name="address2" placeholder="Address 2">
+
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 sel_country">
+
+                  <label>Country</label>
+
+                  <select class="enq_country" id="enq_country">
+
+                    <option value="" disabled selected>Select Country</option>
+
                   </select>
+
                 </div>
-              </div>
-              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <div class="register-first_name">
-                  <label>First Name</label>
-                  <input type="text" class="fname-regis" id="fname-regis" name="fname-regis" placeholder="First Name" required>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+                  <label>State</label>
+
+                  <input type="text" class="enq_state" id="enq_state" name="state" placeholder="State">
+
                 </div>
-              </div>
-              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <div class="register-last_name">
-                  <label>Last Name</label>
-                  <input type="text" class="lname-regis" id="lname-regis" name="lname-regis" placeholder="Last Name" required>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+                  <label>City</label>
+
+                  <input type="text" class="enq_city" id="enq_city" name="city" placeholder="City">
+
                 </div>
-              </div>
-              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <div class="register-phone">
-                  <label>Phone Number</label>
-                  <input type="number" class="phone-regis" id="phone-regis" name="phone-regis" placeholder="Phone Number" required>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+                  <label>Zip/Pin Code</label>
+
+                  <input type="number" class="enq_zip" id="enq_zip" name="zip" placeholder="Zip/ Pin Code">
+
                 </div>
+
               </div>
-              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <div class="register-email">
-                  <label>Email</label>
-                  <input type="email" class="email-regis" id="email-regis" name="email-regis" placeholder="Email" required>
-                </div>
+
+              <div class="sales-enq">
+
+                <label>Sales Inquiry</label>
+
+                <textarea name="sales" id="sales_enquiry" cols="30" rows="5" placeholder="Your Queries" required></textarea>
+
               </div>
-              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <div class="register-email">
-                  <label>Confirm Email</label>
-                  <input type="email" class="conf-email" id="conf-email" name="conf-email" placeholder="Confirm Email" required>
-                </div>
+
+              <div class="submit">
+
+                <button id="submit_enq" class="btn-submit2" type="submit"> SUBMIT </button>
+
               </div>
-              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <div class="register-country">
-                  <label>Select Country</label>
-                  <select class="register-select-country" id="register-select-country" required>
-                    <option value="" disabled selected>Country</option>
-                  </select>
-                </div>
-              </div>
-            </div>
-            <div class="submit">
-              <button id="btn-reg" class="btn-submit2" type="submit"> Register </button>
-            </div>
-            <div class="login-here">
-              <p>Have registered, please
-                <a class="btn-login" data-toggle="modal" data-target="#open-login" contenteditable="false">login here!</a>
-              </p>
-            </div>
-          </form>
+
+            </form>
+
+          </div>
+
         </div>
+
       </div>
-    </div>
-  </div>
 
-  <!-- Modal Form Login-->
-  <div class="modal  modal-login fade" id="open-login" role="dialog">
-    <div class="modal-dialog">
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">LOGIN</h4>
+    </div>
+
+
+
+    <!-- Modal Form Registration-->
+
+    <div class="modal  modal-regis fade" id="open-register" role="dialog">
+
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+
+        <div class="modal-content">
+
+          <div class="modal-header">
+
+            <h4 class="modal-title">REGISTER ACCOUNT</h4>
+
+          </div>
+
+          <div class="modal-body">
+
+            <form class="form-registration">
+
+              <div class="row">
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+                  <div class="form-title_register">
+
+                    <label>Title*</label>
+
+                    <select class="title-register" id="title-register" required>
+
+                      <option value="" disabled selected>Title</option>
+
+
+
+                    </select>
+
+                  </div>
+
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+                  <div class="register-first_name">
+
+                    <label>First Name*</label>
+
+                    <input type="text" class="fname-regis" id="fname-regis" name="fname-regis" placeholder="First Name" required>
+
+                  </div>
+
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+                  <div class="register-last_name">
+
+                    <label>Last Name*</label>
+
+                    <input type="text" class="lname-regis" id="lname-regis" name="lname-regis" placeholder="Last Name" required>
+
+                  </div>
+
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+                  <div class="register-phone">
+
+                    <label>Phone Number*</label>
+
+                    <input type="number" class="phone-regis" id="phone-regis" name="phone-regis" placeholder="Phone Number" required>
+
+                  </div>
+
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+                  <div class="register-email">
+
+                    <label>Email*</label>
+
+                    <input type="email" class="email-regis" id="email-regis" name="email-regis" placeholder="Email" required>
+
+                  </div>
+
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+                  <div class="register-email">
+
+                    <label>Confirm Email*</label>
+
+                    <input type="email" class="conf-email" id="conf-email" name="conf-email" placeholder="Confirm Email" required>
+
+                  </div>
+
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+                  <div class="register-country">
+
+                    <label>Select Country*</label>
+
+                    <select class="register-select-country" id="register-select-country" required>
+
+                      <option value="" disabled selected>Country</option>
+
+                    </select>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="submit">
+
+                <button id="btn-reg" class="btn-submit2" type="submit"> Register </button>
+
+              </div>
+
+              <div class="login-here">
+
+                <p>Have registered, please
+
+                  <a class="btn-login" data-toggle="modal" data-target="#open-login" contenteditable="false">login here!</a>
+
+                </p>
+
+              </div>
+
+            </form>
+
+          </div>
+
         </div>
-        <div class="modal-body">
-          <form class="form-login" action="/action_page.php">
-            <div class="login-username">
-              <label>Email</label>
-              <input type="email" class="login-user" id="login-user" name="login-user" placeholder="Email" required>
-            </div>
-            <div class="login-pwd">
-              <label>Password</label>
-              <input type="password" class="pwd-login" id="pwd-login" name="pwd-login" placeholder="Password" required>
-            </div>
-            <div class="submit">
-              <button id="btn-login" class="btn-submit2" type="submit"> Login </button>
-            </div>
-            <div class="regis-here">
-              <p>Haven’t registered yet, please
-                <a class="btn-regis" data-toggle="modal" data-target="#open-register" contenteditable="false">register here!</a>
-              </p>
-            </div>
-          </form>
-        </div>
+
       </div>
-    </div>
-  </div>
 
-  <!-- Modal For User Action Response -->
-  <div class="modal modal-response fade" id="action-response" role="dialog">
-    <div class="modal-dialog">
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title message">Title</h4>
+    </div>
+
+
+
+    <!-- Modal Form Login-->
+
+    <div class="modal  modal-login fade" id="open-login" role="dialog">
+
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+
+        <div class="modal-content">
+
+          <div class="modal-header">
+
+            <h4 class="modal-title">LOGIN</h4>
+
+          </div>
+
+          <div class="modal-body">
+
+            <form class="form-login">
+
+              <div class="login-username">
+
+                <label>Email</label>
+
+                <input type="email" class="login-user" id="login-user" name="login-user" placeholder="Email" required>
+
+              </div>
+
+              <div class="login-pwd">
+
+                <label>Password</label>
+
+                <input type="password" class="pwd-login" id="pwd-login" name="pwd-login" placeholder="Password" required>
+
+              </div>
+
+              <div class="submit">
+
+                <button id="btn-login" class="btn-submit2" type="submit"> Login </button>
+
+              </div>
+
+              <div class="recover">
+
+                <a class="btn-recover" data-toggle="modal" data-target="#open-recover" contenteditable="false">Recover Password</a>
+
+              </div>
+
+              <div class="regis-here">
+
+                <p>Haven’t registered yet, please
+
+                  <a class="btn-regis" data-toggle="modal" data-target="#open-register" contenteditable="false">register here!</a>
+
+                </p>
+
+              </div>
+
+            </form>
+
+          </div>
+
         </div>
-        <div class="modal-body">
-        </div>
+
       </div>
+
     </div>
-  </div>
-
-  <!--[if lte IE 9]><script src="assets/plugins/jquery/jquery-1.12.4.min.js"></script><![endif]-->
-  <!--[if !IE]> -->
-  <script src="assets/plugins/jquery/jquery-2.2.4.min.js"></script>
-  <!-- <script src="assets/plugins/jquery/mobile/jquery.mobile-1.4.5.min.js"></script> -->
-
-  <!-- <![endif]-->
-  <script src="assets/plugins/hotspotter/jquery-hotspotter-1.7.6.min.js"></script>
-
-  <script src="assets/plugins/hammer/hammer.min.js"></script>
-  <script src="assets/plugins/hammer/jquery-hammer/jquery.hammer.js"></script>
-
-  <script src="assets/plugins/slick/slick.min.js"></script>
-  <link href="assets/plugins/slick/slick-theme.css" rel="stylesheet" />
-  <link href="assets/plugins/slick/slick.css" rel="stylesheet" />
-
-  <script src="assets/plugins/dragscroll/dragscroll.js"></script>
-  <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-  <script src="assets/js/fx-utils.js"></script>
-  <script src="assets/js/app.js"></script>
-  <script src="assets/js/api-module/web-api-support.js"></script>
-  <script src="assets/plugins/store/store.legacy.min.js"></script>
-  <script src="assets/plugins/moment/moment.js"></script>
-  <script src="assets/plugins/datepicker/bootstrap-datetimepicker.min.js"></script>
-  <script src="assets/plugins/simplelightbox/dist/simpleLightbox.min.js"></script>
-
-  <script src="assets/plugins/jquery/jquery-ui-1.12.1/jquery-ui.js"></script>
 
 
-  <!-- <script src="assets/js/main-dist.js"></script> -->
-  <script src="assets/js/api-module/get-api.js"></script>
+
+    <!-- Modal Form Recover Password-->
+
+    <div class="modal  modal-login fade" id="open-recover" role="dialog">
+
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+
+        <div class="modal-content">
+
+          <div class="modal-header">
+
+            <h4 class="modal-title">RECOVER PASSWORD</h4>
+
+            <p class="recover-sub_title">Enter your e-mail below and we will sent you reset instructions!</p>
+
+          </div>
+
+          <div class="modal-body">
+
+            <form class="form-login" action="/action_page.php">
+
+              <div class="login-username">
+
+                <label>Email</label>
+
+                <input type="email" class="login-user" id="login-user" name="login-user" placeholder="Email" required>
+
+              </div>
+
+              <div class="submit submit2">
+
+                <button id="btn-login" class="btn-submit2" type="submit"> Submit </button>
+
+              </div>
+
+              <div class="regis-here">
+
+                <p>Remembered?
+
+                  <a class="btn-sign" data-toggle="modal" data-target="#open-login" contenteditable="false">Sign In</a>
+
+              </div>
+
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- Search Page -->
+
+    <div class="modal modal-search_page fade modal-fullscreen  footer-to-bottom" id="search-page" tabindex="-1" role="dialog"
+      aria-labelledby="myModalLabel" aria-hidden="true">
+
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+      <div class="modal-dialog">
+
+        <div class="modal-content">
+
+          <div class="modal-body">
+
+            <div class="menu-search">
+
+              <div class="menu-search_left">
+
+                <li>
+
+                  <a class="search-category search-all active" id="search-all" data-content="all-search-content" href="#">All</a>
+
+                  <a class="search-category search-exhibitor " id="search-exhibitor" data-content="exhibitor-search-content" href="#">Exhibitors Booths</a>
+
+                  <a class="search-category search-poster" id="search-poster" data-content="poster-search-content" href="#">Posters</a>
+
+                  <a class="search-category search-video" id="search-video" data-content="video-search-content" href="#">Videos</a>
+
+                </li>
+
+              </div>
+
+              <div class="menu-search_right">
+
+                <div class="search-bar right-search">
+
+                  <span class="icon-search"></span>
+
+                  <input type="text" placeholder="Search..">
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="btn-menu">
+
+              <div class="btn-menu_left">
+
+                <div id="switcher">
+
+                  <input type="radio" id="gSwap" value="grid-view" name="swap" checked />
+
+                  <label for="gSwap" id="grid-view" class="glyphicon glyphicon-th active" title="Switch to Grid View"></label>
+
+                  <input type="radio" id="lSwap" value="list-view" name="swap" />
+
+                  <label for="lSwap" id="list-view" class="glyphicon glyphicon-th-list" title="Switch to List View"></label>
+
+                </div>
+
+                <select class="sort-by" id="sort-by" name="sort by">
+
+                  <option selected="true" disabled="disabled">Sort by</option>
+
+                  <option value="sort1">sort1</option>
+
+                  <option value="sort2sort3">sort2</option>
+
+                  <option value="sort3">sort3</option>
+
+                  <option value="sort4">sort4</option>
+
+                </select>
+
+                <p class="result">17,677 results</p>
+
+              </div>
+
+              <div class="select-option">
+
+                <select class="company-name" id="company-name">
+
+                  <option selected="true" disabled="disabled">Company Name</option>
+
+                  <option value="company1">Autotech</option>
+
+                  <option value="company2">TESLA</option>
+
+                  <option value="company3">BREATHONIX</option>
+
+                  <option value="company4">AUTOMOTIVE</option>
+
+                </select>
+
+                <select class="location" id="location">
+
+                  <option value="location">Location</option>
+
+                  <option value="location1">location1</option>
+
+                  <option value="location2">location2</option>
+
+                  <option value="location3">location3</option>
+
+                  <option value="location4">location4</option>
+
+                </select>
+
+                <select class="boothID" id="boothID">
+
+                  <option value="booth">Booth ID</option>
+
+                  <option value="booth1">booth 1</option>
+
+                  <option value="booth2">booth 2</option>
+
+                  <option value="booth3">booth 3</option>
+
+                  <option value="booth4">booth 4</option>
+
+                </select>
+
+              </div>
+
+            </div>
+
+            <div class="content-search">
+
+              <div id="productPage" class="grid-view">
+
+                <div class="loading-search" id="loading-search" style="display: none;">
+                  <img src="assets/images/searching-loading.svg" border="0" alt="loading-screen" class="loading-search-img">
+                </div>
+
+                <div class="search-message" id="search-message" style="display: none;" >
+                  <h4 class="message"></h4>
+                </div>
+
+                <ul class="productWrapper all-search-content" id="all-search-content">
+
+                  <li class="product-block exhibitor_block">
+
+                    <div class="pb-upper">
+
+                      <div class="pb-image exhibitor_image">
+
+                        <img src="assets/images/booth-1.png" border="0" alt="booth" class="pb-img">
+
+                      </div>
+
+                      <div class="pb-description exhibitor_desc">
+
+                        <h3 class="title_search_all">VIDEO COMPANY PROFILE NEW GENERATION 2021</h3>
+
+                        <h4 class="company_search_all">Automotive Group, LLC</h4>
+
+                        <h5 class="booth_id">BOOTH H7-D103</h5>
+
+                        <h5 class="description exhibitor_overview">-</h5>
+
+                        <div class="pb-button exhibitor_circle">
+
+                          <span class="search_all_media">
+
+                            <img class="img_search_all" src="assets/images/video-gray.png" alt="video"> Video
+
+                          </span>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </li>
+
+                  <li class="product-block exhibitor_block">
+
+                    <div class="pb-upper">
+
+                      <div class="pb-image exhibitor_image">
+
+                        <img src="assets/images/booth-1.png" border="0" alt="booth" class="pb-img">
+
+                      </div>
+
+                      <div class="pb-description exhibitor_desc">
+
+                        <h3 class="title_search_all">EVENT POSTER 2021</h3>
+
+                        <h4 class="company_search_all">Automotive Group, LLC</h4>
+
+                        <h5 class="booth_id">BOOTH H7-D103</h5>
+
+                        <h5 class="description exhibitor_overview">-</h5>
+
+                        <div class="pb-button exhibitor_circle">
+
+                          <span class="search_all_media">
+
+                            <img class="img_search_all" src="assets/images/photo.png" alt="poster"> Poster
+
+                          </span>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </li>
+
+                  <li class="product-block exhibitor_block">
+
+                    <div class="pb-upper">
+
+                      <div class="pb-image exhibitor_image">
+
+                        <img src="assets/images/booth-1.png" border="0" alt="booth" class="pb-img">
+
+                      </div>
+
+                      <div class="pb-description exhibitor_desc">
+
+                        <h3 class="title_search_all">-</h3>
+
+                        <h4 class="company_search_all">Automotive Group, LLC</h4>
+
+                        <h5 class="booth_id">BOOTH H7-D103</h5>
+
+                        <h5 class="description exhibitor_overview">Sport Car Technology, Formula 1 Specialist, Automotive </h5>
+
+                        <div class="pb-button exhibitor_circle">
+
+                          <span class="search_all_media">
+
+                            <img class="img_search_all" src="assets/images/pin.png" alt="pin"> China
+
+                          </span>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </li>
+
+                  <li class="product-block exhibitor_block">
+
+                    <div class="pb-upper">
+
+                      <div class="pb-image exhibitor_image">
+
+                        <img src="assets/images/booth-1.png" border="0" alt="booth" class="pb-img">
+
+                      </div>
+
+                      <div class="pb-description exhibitor_desc">
+
+                        <h3 class="title_search_all">VIDEO COMPANY PROFILE NEW GENERATION 2021</h3>
+
+                        <h4 class="company_search_all">Automotive Group, LLC</h4>
+
+                        <h5 class="booth_id">BOOTH H7-D103</h5>
+
+                        <h5 class="description exhibitor_overview">-</h5>
+
+                        <div class="pb-button exhibitor_circle">
+
+                          <span class="search_all_media">
+
+                            <img class="img_search_all" src="assets/images/video-gray.png" alt="video"> Video
+
+                          </span>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </li>
+
+                  <li class="product-block exhibitor_block">
+
+                    <div class="pb-upper">
+
+                      <div class="pb-image exhibitor_image">
+
+                        <img src="assets/images/booth-1.png" border="0" alt="booth" class="pb-img">
+
+                      </div>
+
+                      <div class="pb-description exhibitor_desc">
+
+                        <h3 class="title_search_all">VIDEO COMPANY PROFILE NEW GENERATION 2021</h3>
+
+                        <h4 class="company_search_all">Automotive Group, LLC</h4>
+
+                        <h5 class="booth_id">BOOTH H7-D103</h5>
+
+                        <h5 class="description exhibitor_overview">-</h5>
+
+                        <div class="pb-button exhibitor_circle">
+
+                          <span class="search_all_media">
+
+                            <img class="img_search_all" src="assets/images/video-gray.png" alt="video"> Video
+
+                          </span>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </li>
+
+                  <li class="product-block exhibitor_block">
+
+                    <div class="pb-upper">
+
+                      <div class="pb-image exhibitor_image">
+
+                        <img src="assets/images/booth-1.png" border="0" alt="booth" class="pb-img">
+
+                      </div>
+
+                      <div class="pb-description exhibitor_desc">
+
+                        <h3 class="title_search_all">VIDEO COMPANY PROFILE NEW GENERATION 2021</h3>
+
+                        <h4 class="company_search_all">Automotive Group, LLC</h4>
+
+                        <h5 class="booth_id">BOOTH H7-D103</h5>
+
+                        <h5 class="description exhibitor_overview">-</h5>
+
+                        <div class="pb-button exhibitor_circle">
+
+                          <span class="search_all_media">
+
+                            <img class="img_search_all" src="assets/images/video-gray.png" alt="video"> Video
+
+                          </span>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </li>
+
+                  <li class="product-block exhibitor_block">
+
+                    <div class="pb-upper">
+
+                      <div class="pb-image exhibitor_image">
+
+                        <img src="assets/images/booth-1.png" border="0" alt="booth" class="pb-img">
+
+                      </div>
+
+                      <div class="pb-description exhibitor_desc">
+
+                        <h3 class="title_search_all">VIDEO COMPANY PROFILE NEW GENERATION 2021</h3>
+
+                        <h4 class="company_search_all">Automotive Group, LLC</h4>
+
+                        <h5 class="booth_id">BOOTH H7-D103</h5>
+
+                        <h5 class="description exhibitor_overview">-</h5>
+
+                        <div class="pb-button exhibitor_circle">
+
+                          <span class="search_all_media">
+
+                            <img class="img_search_all" src="assets/images/video-gray.png" alt="video"> Video
+
+                          </span>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </li>
+
+                  <li class="product-block exhibitor_block">
+
+                    <div class="pb-upper">
+
+                      <div class="pb-image exhibitor_image">
+
+                        <img src="assets/images/booth-1.png" border="0" alt="booth" class="pb-img">
+
+                      </div>
+
+                      <div class="pb-description exhibitor_desc">
+
+                        <h3 class="title_search_all">VIDEO COMPANY PROFILE NEW GENERATION 2021</h3>
+
+                        <h4 class="company_search_all">Automotive Group, LLC</h4>
+
+                        <h5 class="booth_id">BOOTH H7-D103</h5>
+
+                        <h5 class="description exhibitor_overview">-</h5>
+
+                        <div class="pb-button exhibitor_circle">
+
+                          <span class="search_all_media">
+
+                            <img class="img_search_all" src="assets/images/video-gray.png" alt="video"> Video
+
+                          </span>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </li>
+
+                </ul>
+
+                <ul class="productWrapper exhibitor-search-content" id="exhibitor-search-content">
+
+                  <li class="product-block exhibitor_block">
+
+                    <div class="pb-upper">
+
+                      <div class="pb-image exhibitor_image">
+
+                        <img src="assets/images/booth-1.png" border="0" alt="booth" class="pb-img">
+
+                      </div>
+
+                      <div class="pb-description exhibitor_desc">
+
+                        <h4>AUTOMOTIVE CORP, INC</h4>
+
+                        <h5 class="booth_id">BOOTH H7-D103</h5>
+
+                        <h5 class="exhibitor_location">United Kingdom</h5>
+
+                        <h5 class="exhibitor_industry">Automotive</h5>
+
+                        <h5 class="description exhibitor_overview">Supplier of aircraft engines at rational prices</h5>
+
+                        <div class="pb-button exhibitor_circle">
+
+                          <a href="#" class="btn-visit">Visit</a>
+
+                          <a href="#" class="circle-image">
+
+                            <img class="exhibitor_symbol" src="assets/images/plane.svg" alt="industry">
+
+                          </a>
+
+                          <a href="#" class="exhibition-more">&#x0003E;</a>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </li>
+
+                  <li class="product-block exhibitor_block">
+
+                    <div class="pb-upper">
+
+                      <div class="pb-image exhibitor_image">
+
+                        <img src="assets/images/booth-1.png" border="0" alt="booth" class="pb-img">
+
+                      </div>
+
+                      <div class="pb-description exhibitor_desc">
+
+                        <h4>BIZ World Group</h4>
+
+                        <h5 class="booth_id">BOOTH H7-D103</h5>
+
+                        <h5 class="exhibitor_location">Singapore</h5>
+
+                        <h5 class="exhibitor_industry">Financial Service</h5>
+
+                        <h5 class="description exhibitor_overview">The creator of the first financial product innovation</h5>
+
+                        <div class="pb-button exhibitor_circle">
+
+                          <a href="#" class="btn-visit">Visit</a>
+
+                          <a href="#" class="circle-image pink_circle">
+
+                            <img class="exhibitor_symbol" src="assets/images/delivery.svg" alt="industry">
+
+                          </a>
+
+                          <a href="#" class="exhibition-more">&#x0003E;</a>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </li>
+
+                  <li class="product-block exhibitor_block">
+
+                    <div class="pb-upper">
+
+                      <div class="pb-image exhibitor_image">
+
+                        <img src="assets/images/booth-1.png" border="0" alt="booth" class="pb-img">
+
+                      </div>
+
+                      <div class="pb-description exhibitor_desc">
+
+                        <h4>AUTOMOTIVE CORP, INC</h4>
+
+                        <h5 class="booth_id">BOOTH H7-D103</h5>
+
+                        <h5 class="exhibitor_location">United Kingdom</h5>
+
+                        <h5 class="exhibitor_industry">Oil & Energy</h5>
+
+                        <h5 class="description exhibitor_overview">Supplier of aircraft engines at rational prices</h5>
+
+                        <div class="pb-button exhibitor_circle">
+
+                          <a href="#" class="btn-visit">Visit</a>
+
+                          <a href="#" class="circle-image ocean_circle">
+
+                            <img class="exhibitor_symbol" src="assets/images/book.svg" alt="industry">
+
+                          </a>
+
+                          <a href="#" class="exhibition-more">&#x0003E;</a>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </li>
+
+                  <li class="product-block exhibitor_block">
+
+                    <div class="pb-upper">
+
+                      <div class="pb-image exhibitor_image">
+
+                        <img src="assets/images/booth-1.png" border="0" alt="booth" class="pb-img">
+
+                      </div>
+
+                      <div class="pb-description exhibitor_desc">
+
+                        <h4>AUTOMOTIVE CORP, INC</h4>
+
+                        <h5 class="booth_id">BOOTH H7-D103</h5>
+
+                        <h5 class="exhibitor_location">United Kingdom</h5>
+
+                        <h5 class="exhibitor_industry">Automotive</h5>
+
+                        <h5 class="description exhibitor_overview">Supplier of aircraft engines at rational prices</h5>
+
+                        <div class="pb-button exhibitor_circle">
+
+                          <a href="#" class="btn-visit">Visit</a>
+
+                          <a href="#" class="circle-image">
+
+                            <img class="exhibitor_symbol" src="assets/images/plane.svg" alt="industry">
+
+                          </a>
+
+                          <a href="#" class="exhibition-more">&#x0003E;</a>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </li>
+
+                  <li class="product-block exhibitor_block">
+
+                    <div class="pb-upper">
+
+                      <div class="pb-image exhibitor_image">
+
+                        <img src="assets/images/booth-1.png" border="0" alt="booth" class="pb-img">
+
+                      </div>
+
+                      <div class="pb-description exhibitor_desc">
+
+                        <h4>AUTOMOTIVE CORP, INC</h4>
+
+                        <h5 class="booth_id">BOOTH H7-D103</h5>
+
+                        <h5 class="exhibitor_location">United Kingdom</h5>
+
+                        <h5 class="exhibitor_industry">Automotive</h5>
+
+                        <h5 class="description exhibitor_overview">Supplier of aircraft engines at rational prices</h5>
+
+                        <div class="pb-button exhibitor_circle">
+
+                          <a href="#" class="btn-visit">Visit</a>
+
+                          <a href="#" class="circle-image">
+
+                            <img class="exhibitor_symbol" src="assets/images/plane.svg" alt="industry">
+
+                          </a>
+
+                          <a href="#" class="exhibition-more">&#x0003E;</a>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </li>
+
+                  <li class="product-block exhibitor_block">
+
+                    <div class="pb-upper">
+
+                      <div class="pb-image exhibitor_image">
+
+                        <img src="assets/images/booth-1.png" border="0" alt="booth" class="pb-img">
+
+                      </div>
+
+                      <div class="pb-description exhibitor_desc">
+
+                        <h4>AUTOMOTIVE CORP, INC</h4>
+
+                        <h5 class="booth_id">BOOTH H7-D103</h5>
+
+                        <h5 class="exhibitor_location">United Kingdom</h5>
+
+                        <h5 class="exhibitor_industry">Automotive</h5>
+
+                        <h5 class="description exhibitor_overview">Supplier of aircraft engines at rational prices</h5>
+
+                        <div class="pb-button exhibitor_circle">
+
+                          <a href="#" class="btn-visit">Visit</a>
+
+                          <a href="#" class="circle-image">
+
+                            <img class="exhibitor_symbol" src="assets/images/plane.svg" alt="industry">
+
+                          </a>
+
+                          <a href="#" class="exhibition-more">&#x0003E;</a>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </li>
+
+                  <li class="product-block exhibitor_block">
+
+                    <div class="pb-upper">
+
+                      <div class="pb-image exhibitor_image">
+
+                        <img src="assets/images/booth-1.png" border="0" alt="booth" class="pb-img">
+
+                      </div>
+
+                      <div class="pb-description exhibitor_desc">
+
+                        <h4>AUTOMOTIVE CORP, INC</h4>
+
+                        <h5 class="booth_id">BOOTH H7-D103</h5>
+
+                        <h5 class="exhibitor_location">United Kingdom</h5>
+
+                        <h5 class="exhibitor_industry">Automotive</h5>
+
+                        <h5 class="description exhibitor_overview">Supplier of aircraft engines at rational prices</h5>
+
+                        <div class="pb-button exhibitor_circle">
+
+                          <a href="#" class="btn-visit">Visit</a>
+
+                          <a href="#" class="circle-image">
+
+                            <img class="exhibitor_symbol" src="assets/images/plane.svg" alt="industry">
+
+                          </a>
+
+                          <a href="#" class="exhibition-more">&#x0003E;</a>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </li>
+
+                  <li class="product-block exhibitor_block">
+
+                    <div class="pb-upper">
+
+                      <div class="pb-image exhibitor_image">
+
+                        <img src="assets/images/booth-1.png" border="0" alt="booth" class="pb-img">
+
+                      </div>
+
+                      <div class="pb-description exhibitor_desc">
+
+                        <h4>AUTOMOTIVE CORP, INC</h4>
+
+                        <h5 class="booth_id">BOOTH H7-D103</h5>
+
+                        <h5 class="exhibitor_location">United Kingdom</h5>
+
+                        <h5 class="exhibitor_industry">Automotive</h5>
+
+                        <h5 class="description exhibitor_overview">Supplier of aircraft engines at rational prices</h5>
+
+                        <div class="pb-button exhibitor_circle">
+
+                          <a href="#" class="btn-visit">Visit</a>
+
+                          <a href="#" class="circle-image">
+
+                            <img class="exhibitor_symbol" src="assets/images/plane.svg" alt="industry">
+
+                          </a>
+
+                          <a href="#" class="exhibition-more">&#x0003E;</a>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </li>
+
+                </ul>
+
+                <ul class="productWrapper poster-search-content" id="poster-search-content">
+
+                  <li class="product-block exhibitor_block">
+
+                    <div class="pb-upper">
+
+                      <div class="pb-image exhibitor_image">
+
+                        <img src="assets/images/Poster-01.jpg" border="0" alt="booth" class="pb-img">
+
+                      </div>
+
+                      <div class="pb-description exhibitor_desc">
+
+                        <h4>AUTOMOTIVE CORP, INC</h4>
+
+                        <h5 class="booth_id">BOOTH H7-D103</h5>
+
+                        <h5 class="description exhibitor_overview">Sport Car Technology, Formula 1 Specialist, Automotive </h5>
+
+                      </div>
+
+                    </div>
+
+                  </li>
+
+                  <li class="product-block exhibitor_block">
+
+                    <div class="pb-upper">
+
+                      <div class="pb-image exhibitor_image">
+
+                        <img src="assets/images/Poster-01.jpg" border="0" alt="booth" class="pb-img">
+
+                      </div>
+
+                      <div class="pb-description exhibitor_desc">
+
+                        <h4>AUTOMOTIVE CORP, INC</h4>
+
+                        <h5 class="booth_id">BOOTH H7-D103</h5>
+
+                        <h5 class="description exhibitor_overview">Sport Car Technology, Formula 1 Specialist, Automotive </h5>
+
+                      </div>
+
+                    </div>
+
+                  </li>
+
+                  <li class="product-block exhibitor_block">
+
+                    <div class="pb-upper">
+
+                      <div class="pb-image exhibitor_image">
+
+                        <img src="assets/images/Poster-01.jpg" border="0" alt="booth" class="pb-img">
+
+                      </div>
+
+                      <div class="pb-description exhibitor_desc">
+
+                        <h4>AUTOMOTIVE CORP, INC</h4>
+
+                        <h5 class="booth_id">BOOTH H7-D103</h5>
+
+                        <h5 class="description exhibitor_overview">Sport Car Technology, Formula 1 Specialist, Automotive </h5>
+
+                      </div>
+
+                    </div>
+
+                  </li>
+
+                  <li class="product-block exhibitor_block">
+
+                    <div class="pb-upper">
+
+                      <div class="pb-image exhibitor_image">
+
+                        <img src="assets/images/Poster-01.jpg" border="0" alt="booth" class="pb-img">
+
+                      </div>
+
+                      <div class="pb-description exhibitor_desc">
+
+                        <h4>AUTOMOTIVE CORP, INC</h4>
+
+                        <h5 class="booth_id">BOOTH H7-D103</h5>
+
+                        <h5 class="description exhibitor_overview">Sport Car Technology, Formula 1 Specialist, Automotive </h5>
+
+                      </div>
+
+                    </div>
+
+                  </li>
+
+                </ul>
+
+                <ul class="productWrapper video-search-content" id="video-search-content">
+
+                  <li class="product-block exhibitor_block">
+
+                    <div class="pb-upper">
+
+                      <div class="pb-image exhibitor_image">
+
+                        <img src="assets/images/Poster-01.jpg" border="0" alt="booth" class="pb-img">
+
+                      </div>
+
+                      <div class="pb-description exhibitor_desc">
+
+                        <h4>AUTOMOTIVE CORP, INC</h4>
+
+                        <h5 class="booth_id">BOOTH H7-D103</h5>
+
+                        <h5 class="description exhibitor_overview">Sport Car Technology, Formula 1 Specialist, Automotive </h5>
+
+                      </div>
+
+                    </div>
+
+                  </li>
+
+                  <li class="product-block exhibitor_block">
+
+                    <div class="pb-upper">
+
+                      <div class="pb-image exhibitor_image">
+
+                        <img src="assets/images/Poster-01.jpg" border="0" alt="booth" class="pb-img">
+
+                      </div>
+
+                      <div class="pb-description exhibitor_desc">
+
+                        <h4>AUTOMOTIVE CORP, INC</h4>
+
+                        <h5 class="booth_id">BOOTH H7-D103</h5>
+
+                        <h5 class="description exhibitor_overview">Sport Car Technology, Formula 1 Specialist, Automotive </h5>
+
+                      </div>
+
+                    </div>
+
+                  </li>
+
+                  <li class="product-block exhibitor_block">
+
+                    <div class="pb-upper">
+
+                      <div class="pb-image exhibitor_image">
+
+                        <img src="assets/images/Poster-01.jpg" border="0" alt="booth" class="pb-img">
+
+                      </div>
+
+                      <div class="pb-description exhibitor_desc">
+
+                        <h4>AUTOMOTIVE CORP, INC</h4>
+
+                        <h5 class="booth_id">BOOTH H7-D103</h5>
+
+                        <h5 class="description exhibitor_overview">Sport Car Technology, Formula 1 Specialist, Automotive </h5>
+
+                      </div>
+
+                    </div>
+
+                  </li>
+
+                  <li class="product-block exhibitor_block">
+
+                    <div class="pb-upper">
+
+                      <div class="pb-image exhibitor_image">
+
+                        <img src="assets/images/Poster-01.jpg" border="0" alt="booth" class="pb-img">
+
+                      </div>
+
+                      <div class="pb-description exhibitor_desc">
+
+                        <h4>AUTOMOTIVE CORP, INC</h4>
+
+                        <h5 class="booth_id">BOOTH H7-D103</h5>
+
+                        <h5 class="description exhibitor_overview">Sport Car Technology, Formula 1 Specialist, Automotive </h5>
+
+                      </div>
+
+                    </div>
+
+                  </li>
+
+                  <li class="product-block exhibitor_block">
+
+                    <div class="pb-upper">
+
+                      <div class="pb-image exhibitor_image">
+
+                        <img src="assets/images/Poster-01.jpg" border="0" alt="booth" class="pb-img">
+
+                      </div>
+
+                      <div class="pb-description exhibitor_desc">
+
+                        <h4>AUTOMOTIVE CORP, INC</h4>
+
+                        <h5 class="booth_id">BOOTH H7-D103</h5>
+
+                        <h5 class="description exhibitor_overview">Sport Car Technology, Formula 1 Specialist, Automotive </h5>
+
+                      </div>
+
+                    </div>
+
+                  </li>
+
+                  <li class="product-block exhibitor_block">
+
+                    <div class="pb-upper">
+
+                      <div class="pb-image exhibitor_image">
+
+                        <img src="assets/images/Poster-01.jpg" border="0" alt="booth" class="pb-img">
+
+                      </div>
+
+                      <div class="pb-description exhibitor_desc">
+
+                        <h4>AUTOMOTIVE CORP, INC</h4>
+
+                        <h5 class="booth_id">BOOTH H7-D103</h5>
+
+                        <h5 class="description exhibitor_overview">Sport Car Technology, Formula 1 Specialist, Automotive </h5>
+
+                      </div>
+
+                    </div>
+
+                  </li>
+
+                  <li class="product-block exhibitor_block">
+
+                    <div class="pb-upper">
+
+                      <div class="pb-image exhibitor_image">
+
+                        <img src="assets/images/Poster-01.jpg" border="0" alt="booth" class="pb-img">
+
+                      </div>
+
+                      <div class="pb-description exhibitor_desc">
+
+                        <h4>AUTOMOTIVE CORP, INC</h4>
+
+                        <h5 class="booth_id">BOOTH H7-D103</h5>
+
+                        <h5 class="description exhibitor_overview">Sport Car Technology, Formula 1 Specialist, Automotive </h5>
+
+                      </div>
+
+                    </div>
+
+                  </li>
+
+                  <li class="product-block exhibitor_block">
+
+                    <div class="pb-upper">
+
+                      <div class="pb-image exhibitor_image">
+
+                        <img src="assets/images/Poster-01.jpg" border="0" alt="booth" class="pb-img">
+
+                      </div>
+
+                      <div class="pb-description exhibitor_desc">
+
+                        <h4>AUTOMOTIVE CORP, INC</h4>
+
+                        <h5 class="booth_id">BOOTH H7-D103</h5>
+
+                        <h5 class="description exhibitor_overview">Sport Car Technology, Formula 1 Specialist, Automotive </h5>
+
+                      </div>
+
+                    </div>
+
+                  </li>
+
+                </ul>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- Form Private Meeting -->
+
+    <div class="modal  modal-private_meeting fade" id="private-meeting" role="dialog">
+
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+
+        <div class="modal-content">
+
+          <div class="modal-header">
+
+            <h4 class="modal-title">Request a Private Meeting</h4>
+
+          </div>
+
+          <div class="modal-body">
+
+            <form class="form-private_meeting">
+
+              <label>Select Representative*</label>
+
+              <div class="representative_sel">
+
+                <select class="select-representative" id="select-representative" required>
+
+                  <option value="" disabled selected>Representative</option>
+
+                  <option value="representative1">Representative 1</option>
+
+                  <option value="representative2">Representative 2</option>
+
+                  <option value="representative3">Representative 3</option>
+
+                  <option value="representative4">Representative 4</option>
+
+                  <option value="representative5">Representative 5</option>
+
+                </select>
+
+              </div>
+
+              <label>Select your Location*</label>
+
+              <div class="country-meeting-select">
+
+                <select class="select-country-private-meeting" id="select-country-private-meeting" required>
+
+                  <option value="" disabled selected>Representative</option>
+
+                  <option value="representative1">Representative 1</option>
+
+                  <option value="representative2">Representative 2</option>
+
+                  <option value="representative3">Representative 3</option>
+
+                  <option value="representative4">Representative 4</option>
+
+                  <option value="representative5">Representative 5</option>
+
+                </select>
+
+              </div>
+
+              <label>Select your Timezone*</label>
+
+              <div class="timezone-meeting-select">
+
+                <select class="select-timezone-private-meeting" id="select-timezone-private-meeting" required>
+
+                  <option value="" disabled selected>Select Timezone*</option>
+
+                  <option value="representative1">Please select the country first </option>
+
+                </select>
+
+              </div>
+
+              <div class="select-time-date">
+
+                <div class="row">
+
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+                    <div class="form-date">
+
+                      <label>Select Date*</label>
+
+                      <div class="date-private-meeting-sel">
+
+                        <select id="date" name="date" required>
+
+                          <option value="0" disabled selected>Date</option>
+
+                          <option value="representative1">Representative 1</option>
+
+                          <option value="representative2">Representative 2</option>
+
+                          <option value="representative5">Representative 5</option>
+
+                        </select>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+                    <div class="form-time">
+
+                      <label>Select Time*</label>
+
+                      <div class="time-private-meeting-sel">
+
+                        <select id="time" name="date" required>
+
+                          <option value="0" disabled selected>Time</option>
+
+                        </select>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="form-agenda">
+
+                <label>Agenda*</label>
+
+                <textarea id="agenda" name="agenda" rows="4" cols="50" placeholder="Write your plan..."></textarea>
+
+              </div>
+
+              <div class="contact-information">
+
+                <label>Contact Information</label>
+
+                
+                <input type="text" class="first-name" id="first-name" name="firstname" placeholder="First Name*" required>
+
+                <input type="text" class="last-name" id="last-name" name="lastname" placeholder="Last Name*" required>
+
+                <div class="row">
+
+                  <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+
+                    <select class="form-title" id="form-title" required>
+
+                      <option value="" disabled selected>Title*</option>
+
+                      <option value="mr">Mr</option>
+
+                      <option value="mrs">Mrs</option>
+
+                      <option value="miss">Miss</option>
+
+                      <option value="ms">Ms</option>
+
+                      <option value="others">Others</option>
+
+                    </select>
+
+                  </div>
+
+                  <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+
+                    <input type="text" class="designation" id="designation" name="designation" placeholder="Designation">
+
+                  </div>
+
+                </div>
+
+
+                <input type="email" class="email" id="email" name="email" placeholder="Email*" required>
+
+                <input type="number" class="phone" id="phone" name="phone" placeholder="Phone Number*" required>
+
+                <input type="text" class="company" id="company" name="company" placeholder="Company">
+
+     
+
+              </div>
+
+
+              <div class="submit">
+
+                <button id="btn-login" class="btn-submit2" type="submit"> Submit </button>
+
+              </div>
+
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- Account Setting -->
+
+    <div class="modal  modal-account_setting fade" id="account_profile" role="dialog">
+
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+
+        <div class="modal-content">
+
+
+
+          <div class="modal-header">
+
+            <div class="img-profile">
+
+              <label for="profile-picture-input">
+
+                <img class="profile" id="profile-picture" src="assets/images/speaker-1.png" alt="profile">
+
+                <div class="change_img">
+
+                  <img src="assets/images/camera.svg" alt="camera">
+
+                </div>
+
+              </label>
+
+              <input class="profile-picture-input" id="profile-picture-input" type="file" accept="image/png, image/jpeg, image/jpg" />
+
+            </div>
+
+            <h4 class="modal-title">ACCOUNT SETTINGS
+
+              <span>
+
+                <img class="edit" src="assets/images/edit.svg" alt="edit">
+
+              </span>
+
+            </h4>
+
+          </div>
+
+          <div class="modal-body">
+
+
+
+            <form class="form__account_setting field">
+
+              <label>NAME</label>
+
+              <input type="text" class="disp_name form__field" placeholder="Display Name" name="name" id='disp_name' disabled/>
+
+              <label>EMAIL</label>
+
+              <input type="email" class="email_account form__field" placeholder="Email" name="email" id='email_account' disabled/>
+
+              <label>PHONE NUMBER</label>
+
+              <input type="number" class="phone_account form__field" placeholder="Phone Number" name="phone" id='phone_account' />
+
+              <span class="change">Change</span>
+
+              <label>CONFIRM YOUR CURRENT PASSWORD</label>
+
+              <input type="password" class="curr_pass form__box" placeholder="Current Password" name="password" id='curr_pass' />
+
+              <label>NEW PASSWORD</label>
+
+              <input type="password" class="new_pass form__box" placeholder="New Password" name="password" id='new_pass' />
+
+              <label>CONFIRM NEW PASSWORD</label>
+
+              <input type="password" class="conf_new_pass form__box" placeholder="Confirm New Password" name="password" id='conf_new_pass'
+              />
+
+              <div class="submit">
+
+                <button id="btn-save" class="btn-submit2" type="submit"> SAVE </button>
+
+                <span class="status_save">Success!</span>
+
+                <span class="status_failed">Failed: Network Error</span>
+
+              </div>
+
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- Xpomania Help -->
+
+    <!-- step1 -->
+
+    <div class="modal modal_help_1 fade " data-keyboard="false" data-backdrop="static" id="modal_help_1" role="dialog">
+
+      <div class="popup_help popup_1">
+
+        <div class="desktop-popup">
+
+          <div class="row">
+
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+
+              <div class="arrow-key_section">
+
+                <img class="keyboard" src="assets/images/keyboard.png" alt="">
+
+                <span class="key-text">Use the (+)/(-) keys to zoom in/zoom out</span>
+
+              </div>
+
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+
+              <div class="mouse-section">
+
+                <img class="mouse-img" src="assets/images/computer-mouse.svg" alt="mouse">
+
+                <span class="mouse-text">Click and drag to look around</span>
+
+              </div>
+
+            </div>
+
+            <!-- <button class="close-key">×</button> -->
+
+          </div>
+
+          <div class="resp_btn">
+
+            <a class="btn_next next_1" data-id="1" href="#">Next</a>
+
+            <a class="btn_skip skip_1" data-id="1" href="#">Skip</a>
+
+          </div>
+
+        </div>
+
+        <div class="mobile-popup">
+
+          <div class="swipe">
+
+            <img src="assets/images/swipe.svg" alt="swipe">
+
+            <p>Drag with one finger to rotate</p>
+
+          </div>
+
+          <div class="spread">
+
+            <img src="assets/images/finger.svg" alt="spread">
+
+            <p>Spread to zoom in and Pinch to zoom out</p>
+
+          </div>
+
+          <div class="drag">
+
+            <img src="assets/images/scroll.svg" alt="scroll">
+
+            <p>Drag with two finger to move up and down</p>
+
+          </div>
+
+          <div class="resp_btn">
+
+            <a class="btn_next next_1" data-id="1" href="#">Next</a>
+
+            <a class="btn_skip skip_1" data-id="1" href="#">Skip</a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- step1 -->
+
+    <div class="modal modal_help_3 fade " data-keyboard="false" data-backdrop="static" id="modal_help_3" role="dialog">
+
+      <div class="popup_help popup_3">
+
+        <h4 class="help_desc">Use the next previous button to see the next booth</h4>
+
+        <div class="step_img">
+
+          <img src="assets/images/help2.png" alt="help2">
+
+        </div>
+
+        <div class="resp_btn">
+
+          <a class="btn_next next_3" data-id="3" href="#">Next</a>
+
+          <a class="btn_skip skip_3" data-id="3" href="#">Skip</a>
+
+        </div>
+
+      </div>
+
+      <!-- <div class="step_arrow">
+
+        <img src="./../assets/images/arrow.svg" alt="arrow">
+
+      </div> -->
+
+    </div>
+
+
+
+    <!-- step2 -->
+
+    <div class="modal modal_help_4 fade " data-keyboard="false" data-backdrop="static" id="modal_help_4" role="dialog">
+
+      <div class="popup_help popup_4">
+
+        <h4 class="help_desc">Use the buttons below to bookmark booth, share your experience, open this quick introduction page again and manual
+          zoom in/zoom out </h4>
+
+        <div class="step_img">
+
+          <img src="assets/images/help3.png" alt="help3">
+
+        </div>
+
+        <div class="resp_btn">
+
+          <a class="btn_next next_4" data-id="4" href="#">Next</a>
+
+          <a class="btn_skip skip_4" data-id="4" href="#">Skip</a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- step3 -->
+
+    <div class="modal modal_help_5 fade " data-keyboard="false" data-backdrop="static" id="modal_help_5" role="dialog">
+
+      <div class="popup_help popup_5">
+
+        <div class="help_desc">
+
+          <li> Use header menu to view Live Stream Seminar, Exhibition map, Exhibitors Listing, and send Enquiries</li>
+
+          <li>View your Bookmarks and History in your profile</li>
+
+          <li> Use search to find products/services, Exhibitors/Companies, booths, images, videos, etc.</li>
+
+        </div>
+
+        <div class="step_img">
+
+          <img class="img_step4" src="assets/images/help4.png" alt="help4">
+
+          <img class="img_step4_mobile" src="assets/images/help6.png" alt="help6">
+
+        </div>
+
+        <div class="resp_btn">
+
+          <a class="btn_next next_5" data-id="5" href="#">Next</a>
+
+          <a class="btn_skip skip_5" data-id="5" href="#">Skip</a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- step4 -->
+
+    <div class="modal modal_help_6 fade " data-keyboard="false" data-backdrop="static" id="modal_help_6" role="dialog">
+
+      <div class="popup_help popup_6">
+
+        <h4 class="help_desc">
+
+          Explore the booth and click on the hotspots inside the booth. You can also follow the flow according to the numbers on the
+          hotspots.
+
+        </h4>
+
+        <div class="step_img">
+
+          <img src="assets/images/help5.png" alt="help5">
+
+        </div>
+
+        <div class="resp_btn">
+
+          <a class="btn_next next_6" data-id="6" href="#">Next</a>
+
+          <a class="btn_skip skip_6" data-id="6" href="#">Skip</a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- step5 -->
+
+    <div class="modal modal_help_2 fade " data-keyboard="false" data-backdrop="static" id="modal_help_2" role="dialog">
+
+      <div class="popup_help popup_2">
+
+        <h4 class="help_desc">
+
+          Use the left menu on the screen to find all available hotspot functions in the booth.
+
+        </h4>
+
+        <div class="step_img">
+
+          <img class="img_step6" src="assets/images/help1.png" alt="help1">
+
+        </div>
+
+        <div class="resp_btn">
+
+          <a class="btn_next next_2" data-id="2" href="#">Next</a>
+
+          <a class="btn_skip skip_2" data-id="2" href="#">Skip</a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- step1 -->
+
+    <div class="modal modal_help_0 fade " data-keyboard="false" data-backdrop="static" id="modal_help_0" role="dialog">
+
+      <div class="popup_help popup_0">
+
+        <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+
+        <h3 class="help_title">Quick Intro</h3>
+
+        <h4 class="help_desc">
+
+          If you are a new user, you can follow this quick introduction. You can access this page again by clicking the button
+
+          <img class="info_help" src="assets/images/info.svg"></img>
+
+          at the bottom of the screen.
+
+        </h4>
+
+        <label>
+
+          <input id="dontShow" name="dontShow" type="checkbox" />Don’t show me this page again
+
+        </label>
+
+        <div class="resp_btn">
+
+          <a class="btn_next next_0" data-id="0" href="#">Next</a>
+
+          <a class="btn_skip skip_0" data-id="0" href="#">Skip</a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- Modal For User Action Response -->
+
+    <div class="modal modal-response fade" id="action-response" role="dialog">
+
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+
+        <div class="modal-content">
+
+          <div class="modal-header">
+
+            <h4 class="modal-title message">Title</h4>
+
+          </div>
+
+          <div class="modal-body">
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- Toggle Iframe Fullscreen -->
+
+    <div class="jitsi-holder js-jitsi js-group-meet" data-left="0" data-top="59">
+
+      <div class="toggle-buttons">
+
+        <a href="#" class="btn btn-interactive-default btn-drag"><img class="drag-img" src="assets/images/drag-icon.png"></a>
+
+        <a href="#" class="btn btn-interactive-default btn-fullscreen">Fullscreen</a>
+
+        <a href="#" class="btn btn-interactive-default btn-minimize">Minimize</a>
+
+        <a href="#" class="btn btn-interactive-default btn-exitmeeting">Exit
+
+          <span>Meeting</span>
+
+        </a>
+
+        <a href="#" class="btn exitmeeting_mobile">Exit Meeting</a>
+
+      </div>
+
+      <div class="iframe-holder js-iframe-target">
+
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- <div id="public-meeting" class="meeting-buttons">
+
+
+
+        <a href="javascript:void(0)" id="meeting-without-password" class="btn btn-interactive-default joinBtn">Join Meeting Without Password</a>
+
+            </div> -->
+
+
+
+    <!--[if lte IE 9]><script src="./../assets/plugins/jquery/jquery-1.12.4.min.js"></script><![endif]-->
+
+    <!--[if !IE]> -->
+
+    <script src="assets/plugins/jquery/jquery-2.2.4.min.js"></script>
+
+    <!-- <script src="./../assets/plugins/jquery/mobile/jquery.mobile-1.4.5.min.js"></script> -->
+
+    <!-- <![endif]-->
+
+
+
+    <!-- <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5f336419f8f5b100120ea553&product=inline-share-buttons' async='async'></script> -->
+
+    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#product=custom-share-buttons" async="async"></script>
+
+    <script src='assets/plugins/css3-animate-it.js'></script>
+
+    <script src="assets/plugins/hotspotter/jquery-hotspotter-1.7.6.min.js"></script>
+
+
+
+    <script src="assets/plugins/hammer/hammer.min.js"></script>
+
+    <script src="assets/plugins/hammer/jquery-hammer/jquery.hammer.js"></script>
+
+
+
+    <script src="assets/plugins/slick/slick.min.js"></script>
+
+    <link href="assets/plugins/slick/slick-theme.css" rel="stylesheet" />
+
+    <link href="assets/plugins/slick/slick.css" rel="stylesheet" />
+
+
+
+    <!-- <script src="./../assets/plugins/mapplic/hammer.min.js"></script> -->
+
+    <script src="assets/plugins/mapplic/jquery.mousewheel.js"></script>
+    <script src="assets/plugins/mapplic/mapplic.js"></script>
+
+
+
+    <script src="assets/plugins/file-saver/dist/FileSaver.min.js"></script>
+
+    <script src="assets/plugins/dragscroll/dragscroll.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/fx-utils.js"></script>
+
+    <script src="assets/js/app.js"></script>
+
+
+
+    <script src="assets/js/api-module/web-api-support.js"></script>
+
+    <script src="assets/js/api-module/get-api.js"></script>
+
+    <script src="assets/plugins/store/store.legacy.min.js"></script>
+
+
+
+    <script src="assets/plugins/moment/moment.js"></script>
+
+    <script src="assets/plugins/datepicker/bootstrap-datetimepicker.min.js"></script>
+
+
+
+    <script src="assets/plugins/simplelightbox/dist/simpleLightbox.min.js"></script>
+
+    <script src="assets/plugins/jquery/jquery-ui-1.12.1/jquery-ui.js"></script>
+
+    <!-- <script src="./../assets/js/main-dist.js"></script> -->
+
+
+
+
+
+
+
 
 
 </body>
+
+
 
 </html>

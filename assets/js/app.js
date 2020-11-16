@@ -25,21 +25,21 @@
 
 
   var boothLink = [
-    './../xpo/booths/M01/M01.html',
-    './../xpo/booths/M02/M02.html',
-    './../xpo/booths/M03/M03.html',
-    './../xpo/booths/M04/M04.html',
-    './../xpo/booths/M05/M05.html',
-    './../xpo/booths/M06/M06.html',
-    './../xpo/booths/S01/S01.html',
-    './../xpo/booths/S02/S02.html',
-    './../xpo/booths/S03/S03.html',
-    './../xpo/booths/SM01/SM01.html',
-    './../xpo/booths/SS01/SS01.html',
-    './../xpo/booths/L01/L01.html',
-    './../xpo/booths/L02/L02.html',
-    './../xpo/booths/L03/L03.html',
-    './../xpo/booths/L04/L04.html'
+    'xpo/booths/M01/M01.html',
+    'xpo/booths/M02/M02.html',
+    '.xpo/booths/M03/M03.html',
+    'xpo/booths/M04/M04.html',
+    'xpo/booths/M05/M05.html',
+    'xpo/booths/M06/M06.html',
+    'xpo/booths/S01/S01.html',
+    'xpo/booths/S02/S02.html',
+    'xpo/booths/S03/S03.html',
+    'xpo/booths/SM01/SM01.html',
+    'xpo/booths/SS01/SS01.html',
+    'xpo/booths/L01/L01.html',
+    'xpo/booths/L02/L02.html',
+    'xpo/booths/L03/L03.html',
+    'xpo/booths/L04/L04.html'
   ];
 
   /*

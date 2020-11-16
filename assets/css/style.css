@@ -712,7 +712,7 @@ iframe {
 .exhibition-layout {
   position: relative;
   height: 100vh;
-  display: none;
+  display: block;
   overflow: hidden;
 }
 .exhibition-layout .btn-open_exhibition {
