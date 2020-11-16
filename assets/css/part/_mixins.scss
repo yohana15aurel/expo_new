@@ -1,0 +1,305 @@
+//<editor-fold desc="Font">
+@mixin font-face($name, $fileStructureAndName,$weight) {
+  @font-face {
+    font-family: $name;
+    src: url($fileStructureAndName + '.ttf') format('truetype');
+    font-weight: $weight;
+    font-style: normal;
+  }
+}
+//</editor-fold>
+
+//<editor-fold desc="Text">
+// px to em
+$browser-context: 16;
+
+// https://github.com/sass/sass/issues/533
+@function strip-units($number) {
+  @return $number / ($number * 0 + 1);
+}
+
+@function em($pixels, $context: $browser-context) {
+  @return #{strip-units($pixels)/strip-units($context)}em
+}
+
+@mixin letterpress($opacity) {
+  text-shadow: white($opacity) 0 1px 0;
+}
+
+// rem : relative to html
+@mixin font-size($sizeValue: 1.6) {
+  font-size: ($sizeValue * 10) + px;
+  font-size: $sizeValue + rem;
+}
+
+@mixin text-shadow($val...) {
+  text-shadow: $val;
+}
+
+@mixin text-ellipsis {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+//</editor-fold>
+
+//<editor-fold desc="Position">
+@mixin pull-center {
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  float: none !important;
+}
+
+// Horizontal navigation list
+@mixin navigation-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+
+  > li {
+    display: block;
+    float: left;
+
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+}
+
+@mixin clear-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+@mixin clear-fix {
+  clear: both;
+  content: "";
+  display: table;
+}
+//</editor-fold>
+
+//<editor-fold desc="Global">
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin box-shadow($options) {
+  -moz-box-shadow: $options;
+  -webkit-box-shadow: $options;
+  box-shadow: $options;
+}
+
+@mixin box-sizing($val...) {
+  -webkit-box-sizing: $val;
+  -moz-box-sizing: $val;
+  box-sizing: $val;
+}
+
+@mixin animationArrowDown {
+  @include transition(all 0.3s ease-in);
+  &.active {
+    @include transform(rotate(-180deg));
+  }
+}
+
+// how to use:
+// @include transition(all 0.2s ease-in-out);
+@mixin transition($transition) {
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+  -ms-transition: $transition;
+  -o-transition: $transition;
+  transition: $transition;
+}
+
+@mixin transition-delay($delay: 250ms) {
+  -webkit-transition-delay: $delay;
+  -moz-transition-delay: $delay;
+  -o-transition-delay: $delay;
+  transition-delay: $delay;
+}
+
+@mixin no-transition() {
+  -moz-transition-property: none;
+  -webkit-transition-property: none;
+  -o-transition-property: none;
+  transition-property: none;
+}
+
+@mixin pointer-events($val: none) {
+  -webkit-pointer-events: $val;
+  -moz-pointer-events: $val;
+  -ms-pointer-events: $val;
+  -o-pointer-events: $val;
+  pointer-events: $val;
+}
+
+@mixin transform($transform) {
+  transform: $transform;
+  -ms-transform: $transform; /* IE 9 */
+  -webkit-transform: $transform; /* Opera, Chrome, and Safari */
+}
+
+@mixin box-emboss($opacity, $opacity2) {
+  box-shadow: white($opacity) 0 1px 0, inset black($opacity2) 0 1px 0;
+}
+
+@mixin placeholder {
+  &::-webkit-input-placeholder {
+    @content;
+  }
+
+  &:-moz-placeholder {
+    /* Firefox 18- */
+    @content;
+  }
+
+  &::-moz-placeholder {
+    /* Firefox 19+ */
+    @content;
+  }
+
+  &:-ms-input-placeholder {
+    @content;
+  }
+}
+
+@mixin word-break {
+  /* breaking long url */
+  -ms-word-break: break-all;
+  word-break: break-all;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
+// @Animation:
+// how to use:
+//@include keyframes(move-the-object) {
+//  0%   { left: 100px; }
+// 100% { left: 200px; }
+//}
+//.object-to-animate {
+//  @include animation('move-the-object .5s 1', 'move-the-object-again .5s 1 .5s');
+//}
+
+@mixin animation($animate...) {
+  $max: length($animate);
+  $animations: '';
+
+  @for $i from 1 through $max {
+    $animations: #{$animations + nth($animate, $i)};
+
+    @if $i < $max {
+      $animations: #{$animations + ", "};
+    }
+  }
+  -webkit-animation: $animations;
+  -moz-animation: $animations;
+  -o-animation: $animations;
+  animation: $animations;
+}
+
+@mixin keyframes($animationName) {
+  @-webkit-keyframes #{$animationName} {
+    @content;
+  }
+  @-moz-keyframes #{$animationName} {
+    @content;
+  }
+  @-o-keyframes #{$animationName} {
+    @content;
+  }
+  @keyframes #{$animationName} {
+    @content;
+  }
+}
+
+@mixin user-select($val: none) {
+  -webkit-user-select: $val;
+  -moz-user-select: $val;
+  -ms-user-select: $val;
+  user-select: $val;
+}
+//</editor-fold>
+
+//<editor-fold desc="Media Queries">
+@mixin respond-to($device) {
+  @if $device == mobile {
+    @media only screen and (max-width: 480px) {
+      @content;
+    }
+  } @else if $device == small-tablet {
+    @media only screen and (min-width: 481px) and (max-width: 767px) {
+      @content;
+    }
+  } @else if $device == below-tablet {
+    @media only screen and (min-width: 240px) and (max-width: 767px) {
+      @content;
+    }
+  } @else if $device == tablet-portrait {
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      @content;
+    }
+  } @else if $device == tablet-landscape {
+    @media only screen and (min-width: 992px) and (max-width: 1024px) {
+      @content;
+    }
+  } @else if $device == col-lg {
+    @media only screen and (min-width: 1200px) {
+      @content;
+    }
+  } @else if $device == col-lg-up {
+    @media only screen and (min-width: 1200px) {
+      @content;
+    }
+  } @else if $device == col-md-down {
+    @media only screen and (max-width: 1199px) {
+      @content;
+    }
+  } @else if $device == col-md {
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      @content;
+    }
+  } @else if $device == col-md-up {
+    @media only screen and (min-width: 992px) {
+      @content;
+    }
+  } @else if $device == col-sm-down {
+    @media only screen and (max-width: 991px) {
+      @content;
+    }
+  } @else if $device == col-sm {
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      @content;
+    }
+  } @else if $device == col-sm-up {
+    @media only screen and (min-width: 768px) {
+      @content;
+    }
+  } @else if $device == col-xs-down {
+    @media only screen and (max-width: 767px) {
+      @content;
+    }
+  }@else if $device == col-xs {
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      @content;
+    }
+  } @else if $device == col-xs-up {
+    @media only screen and (min-width: 0px) {
+      @content;
+    }
+  } @else {
+    @content;
+  }
+}
+//</editor-fold>
+

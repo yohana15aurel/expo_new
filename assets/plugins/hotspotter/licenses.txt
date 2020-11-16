@@ -1,0 +1,14 @@
+Plugin/Editor					License: http://codecanyon.net/licenses/regular_extended
+
+chalet.jpg						License: CreativeCommons 3.0
+galaxy.jpg						License: CreativeCommons 3.0
+jupiter.jpg						License: CreativeCommons 3.0
+jupiter.jpg						License: CreativeCommons 3.0
+lungern.jpg						License: contacted author ,  Michael Siegenthaler , http://www.msigi.net/
+yalta_summit_1945.jpg			License: public domain
+Winston_Churchill_1941.jpg		License: public domain
+stalin.jpg						License: public domain
+f_roosevelt.jpg					License: public domain
+
+Editor icons					License: CreativeCommons 2.5 , http://www.famfamfam.com/
+Note that editor spot icons are not included in above license, except for image spot icon

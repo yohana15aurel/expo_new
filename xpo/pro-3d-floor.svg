@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1720px" height="1400px" viewBox="0 0 1720 1400" enable-background="new 0 0 1720 1400" xml:space="preserve">
+<g id="base_2_">
+	<g>
+		<path fill="#2F1558" d="M90.19,529.32c-9.56,5.8-9.22,16.05-1.71,22.2c8.98,7.35,957.25,557.81,957.25,557.81
+			s17.33,10.93,34.57,1.54c15.4-8.39,525.54-302.72,525.54-302.72s15.62-9.48,7.94-25.35c-1.85-3.81-4.52-6.23-12.72-11.18
+			c-8.2-4.95-943.34-545.85-943.34-545.85s-23.22-13.66-39.61-6.83C613.66,220.77,270.76,419.69,90.19,529.32z"/>
+		<path fill="#170B3A" d="M1063.11,1114.95v38.93c0,0,10.5-0.51,20.23-5.63s523.61-303.23,523.61-303.23s8.6-4.27,8.94-14.51
+			c0.34-10.24-0.31-36.54-0.31-36.54s-2.72,8.2-7.5,11.95s-531.93,306.31-531.93,306.31S1070.28,1115.29,1063.11,1114.95z"/>
+		<path fill="#0E0828" d="M1063.11,1114.95v38.93c0,0-9.86-0.51-19.59-5.63S90.99,594.03,90.99,594.03s-8.44-4.27-8.78-14.51
+			c-0.34-10.24,0.39-36.54,0.39-36.54s2.76,6.15,7.54,9.9s960.55,559.34,960.55,559.34S1056.97,1115.29,1063.11,1114.95z"/>
+	</g>
+</g>
+<g id="bg_4_">
+	<path fill="#2F1558" stroke="#EB30FF" stroke-miterlimit="10" d="M1053.17,1046.31c0,0,12.81,8.71,29.71,0.51
+		c16.9-8.2,426.68-242.28,426.68-242.28s14.34-7.17,1.02-18.95L643.39,285.16c0,0-16.9-8.71-29.71-0.51
+		C600.88,292.84,187,527.95,187,527.95s-10.24,10.76-2.05,16.9C193.15,551,1053.17,1046.31,1053.17,1046.31z"/>
+</g>
+<path fill="#5A23A3" d="M221.03,535.42v5.07l162.07,91.11c0,0,6.58,3.85,12.66,1.22c6.08-2.63,94.7-54.53,94.7-54.53v-5.27
+	c0,0-76.12,45.81-92.95,54.33c-3.17,1.6-7.42,3.25-14.32-0.2C375.07,623.09,221.03,535.42,221.03,535.42z"/>
+<g>
+	<path fill="#964CFF" d="M1339.03,895.19l-110.23,63.33c-3.02,1.74-1.39,2.48-1.18,2.79l6.48,3.7c2.94,1.39,5.37-0.4,5.37-0.4
+		s8-4.54,19.65-11.15l90.75-51.97c1.77-1.03,1-2.31,0-3.58l-4.76-3.09C1341.42,893.55,1340.9,894.57,1339.03,895.19z"/>
+	<polygon fill="#964CFF" points="1347.64,838.41 1348.54,806.72 1232.79,873.44 1231.89,905.59 	"/>
+	<polygon fill="#964CFF" points="1348.93,806.72 1347.96,896.81 1344.83,898.54 1345.74,808.56 	"/>
+	<polygon fill="#964CFF" points="1236.24,871.25 1235.28,960.32 1232.14,962.05 1233.05,873.1 	"/>
+	
+		<text transform="matrix(1.0697 -0.6095 2.000000e-03 1 1244.2148 888.371)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="17.1498px">ENTRANCE</text>
+</g>
+<g id="landmark-3d-d">
+	<g id="prob15_x5F_2">
+		<g>
+			<polygon fill="#29B7E2" points="1014.26,683.03 1073.55,649.09 1131.48,681.67 1073.1,716.07 			"/>
+		</g>
+		
+			<text transform="matrix(0.8055 0.4869 -0.8127 0.5826 1064.8401 680.84)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.8978px">S15</text>
+	</g>
+	<g id="prob10_x5F_2">
+		<g>
+			<polygon fill="#1691A5" points="954.52,722.59 954.52,716.84 1013.37,749.88 1014.27,755.63 			"/>
+			<polygon fill="#20AAE1" points="954.85,716.84 1014.13,682.9 1072.06,715.48 1013.68,749.88 			"/>
+		</g>
+		
+			<text transform="matrix(0.8055 0.4869 -0.8127 0.5826 1003.0193 715.2001)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.8978px">S10</text>
+	</g>
+	<g id="prob16_x5F_2">
+		<g>
+			<polygon fill="#29B7E2" points="1189.87,714.46 1190.78,720.66 1132.4,754.61 1131.49,748.85 			"/>
+			<polygon fill="#7ECBFF" points="1072.66,715.82 1131.94,681.87 1189.87,714.46 1131.49,748.85 			"/>
+		</g>
+		
+			<text transform="matrix(0.8055 0.4869 -0.8127 0.5826 1123.8977 715.4723)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.8978px">S16</text>
+	</g>
+	<g id="prob09_x5F_2">
+		<g>
+			<polygon fill="#1899B7" points="1012.92,755.37 1012.92,749.62 1071.76,782.66 1072.66,788.41 			"/>
+			<polygon fill="#1DA2CC" points="1131.48,748.26 1132.39,754.47 1072.98,788.41 1072.07,782.66 			"/>
+			<polygon fill="#29B7E2" points="1013.24,749.62 1072.53,715.68 1130.85,748.54 1072.07,782.66 			"/>
+		</g>
+		
+			<text transform="matrix(0.8055 0.4869 -0.8127 0.5826 1060.3707 748.8016)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.8978px">S09</text>
+	</g>
+	<g id="prob07_x5F_2">
+		<g>
+			<polygon fill="#55BAF2" points="876.99,760.89 936.28,726.95 994.21,759.53 935.82,793.93 			"/>
+		</g>
+		
+			<text transform="matrix(0.8055 0.4869 -0.8127 0.5826 922.5303 759.0612)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.8978px">S07</text>
+	</g>
+	<g id="prob02_x5F_2">
+		<g>
+			<polygon fill="#1691A5" points="817.25,800.45 817.25,794.7 876.09,827.73 877,833.49 			"/>
+			<polygon fill="#41B3E5" points="817.57,794.7 876.86,760.75 934.79,793.34 876.41,827.73 			"/>
+		</g>
+		
+			<text transform="matrix(0.8055 0.4869 -0.8127 0.5826 866.129 792.5442)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.8978px">S02</text>
+	</g>
+	<g id="prob08_x5F_2">
+		<g>
+			<polygon fill="#29B7E2" points="1052.6,792.31 1053.5,798.52 995.12,832.46 994.22,826.71 			"/>
+			<polygon fill="#7ECBFF" points="935.38,793.67 994.67,759.73 1052.6,792.31 994.22,826.71 			"/>
+		</g>
+		
+			<text transform="matrix(0.8055 0.4869 -0.8127 0.5826 980.4652 792.072)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.8978px">S08</text>
+	</g>
+	<g id="prob01_x5F_2">
+		<g>
+			<polygon fill="#1899B7" points="875.64,833.23 875.64,827.48 934.49,860.52 935.39,866.27 			"/>
+			<polygon fill="#1DA2CC" points="994.09,826.74 994.94,832.72 935.7,866.27 934.8,860.52 			"/>
+			<polygon fill="#55BAF2" points="875.96,827.48 935.25,793.54 994.26,826.92 934.8,860.52 			"/>
+		</g>
+		
+			<text transform="matrix(0.8055 0.4869 -0.8127 0.5826 923.1537 827.5239)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.8978px">S01</text>
+	</g>
+	<g id="prob14">
+		<g>
+			<polygon fill="#20AAE1" points="762.25,535.51 821.54,501.57 879.47,534.16 821.09,568.55 			"/>
+		</g>
+		
+			<text transform="matrix(0.8055 0.4869 -0.8127 0.5826 804.8992 527.85)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.8978px">S14</text>
+	</g>
+	<g id="prob11">
+		<g>
+			<polygon fill="#138591" points="702.51,575.07 702.51,569.32 761.36,602.36 762.26,608.11 			"/>
+			<polygon fill="#0D9FCC" points="702.83,569.32 762.12,535.38 820.05,567.96 761.67,602.36 			"/>
+		</g>
+		
+			<text transform="matrix(0.8055 0.4869 -0.8127 0.5826 744.7169 563.201)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.8978px">S11</text>
+	</g>
+	<g id="prob15">
+		<g>
+			<polygon fill="#29B7E2" points="820.64,568.3 879.93,534.35 937.86,566.94 879.48,601.33 			"/>
+		</g>
+		
+			<text transform="matrix(0.8055 0.4869 -0.8127 0.5826 869.1735 564.3955)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.8978px">S15</text>
+	</g>
+	<g id="prob10">
+		<g>
+			<polygon fill="#1691A5" points="760.9,607.86 760.9,602.1 819.75,635.14 820.65,640.89 			"/>
+			<polygon fill="#20AAE1" points="761.23,602.1 820.51,568.16 878.44,600.74 820.06,635.14 			"/>
+		</g>
+		
+			<text transform="matrix(0.8055 0.4869 -0.8127 0.5826 807.3546 598.7541)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.8978px">S10</text>
+	</g>
+	<g id="prob16">
+		<g>
+			<polygon fill="#29B7E2" points="996.26,599.72 997.16,605.93 938.78,639.87 937.87,634.12 			"/>
+			<polygon fill="#7ECBFF" points="879.04,601.08 938.32,567.13 996.26,599.72 937.87,634.12 			"/>
+		</g>
+		
+			<text transform="matrix(0.8055 0.4869 -0.8127 0.5826 928.2307 599.0281)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.8978px">S16</text>
+	</g>
+	<g id="prob09">
+		<g>
+			<polygon fill="#1899B7" points="819.3,640.64 819.3,634.88 878.14,667.92 879.04,673.68 			"/>
+			<polygon fill="#1DA2CC" points="937.86,633.53 938.77,639.73 879.36,673.68 878.46,667.92 			"/>
+			<polygon fill="#29B7E2" points="819.62,634.88 878.91,600.94 937.23,633.81 878.46,667.92 			"/>
+		</g>
+		
+			<text transform="matrix(0.8055 0.4869 -0.8127 0.5826 864.7016 632.3555)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.8978px">S09</text>
+	</g>
+	<g id="prob06">
+		<g>
+			<polygon fill="#41B3E5" points="624.98,613.37 684.26,579.43 742.19,612.01 683.81,646.41 			"/>
+		</g>
+		
+			<text transform="matrix(0.8055 0.4869 -0.8127 0.5826 665.2469 608.3403)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.8978px">S06</text>
+	</g>
+	<g id="prob03">
+		<g>
+			<polygon fill="#138591" points="565.24,652.93 565.24,647.18 624.08,680.22 624.98,685.97 			"/>
+			<polygon fill="#2FA9D3" points="565.56,647.18 624.85,613.23 682.78,645.82 624.39,680.22 			"/>
+		</g>
+		
+			<text transform="matrix(0.8055 0.4869 -0.8127 0.5826 607.1953 641.5808)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.8978px">S03</text>
+	</g>
+	<g id="prob07">
+		<g>
+			<polygon fill="#55BAF2" points="683.37,646.15 742.66,612.21 800.59,644.8 742.2,679.19 			"/>
+		</g>
+		
+			<text transform="matrix(0.8055 0.4869 -0.8127 0.5826 726.8648 642.6147)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.8978px">S07</text>
+	</g>
+	<g id="prob02">
+		<g>
+			<polygon fill="#1691A5" points="623.63,685.71 623.63,679.96 682.48,713 683.38,718.75 			"/>
+			<polygon fill="#41B3E5" points="623.95,679.96 683.24,646.02 741.17,678.6 682.79,713 			"/>
+		</g>
+		
+			<text transform="matrix(0.8055 0.4869 -0.8127 0.5826 670.4624 676.0997)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.8978px">S02</text>
+	</g>
+	<g id="prob08">
+		<g>
+			<polygon fill="#29B7E2" points="858.98,677.58 859.89,683.78 801.5,717.73 800.6,711.97 			"/>
+			<polygon fill="#7ECBFF" points="741.76,678.94 801.05,644.99 858.98,677.58 800.6,711.97 			"/>
+		</g>
+		
+			<text transform="matrix(0.8055 0.4869 -0.8127 0.5826 784.7973 675.6251)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.8978px">S08</text>
+	</g>
+	<g id="prob01">
+		<g>
+			<polygon fill="#1899B7" points="682.02,718.5 682.02,712.74 740.87,745.78 741.77,751.53 			"/>
+			<polygon fill="#1DA2CC" points="800.47,712.01 801.32,717.98 742.09,751.53 741.18,745.78 			"/>
+			<polygon fill="#55BAF2" points="682.35,712.74 741.63,678.8 800.64,712.18 741.18,745.78 			"/>
+		</g>
+		
+			<text transform="matrix(0.8055 0.4869 -0.8127 0.5826 727.4862 711.0757)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.8978px">S01</text>
+	</g>
+</g>
+<g id="landmark-3d-c">
+	<g id="proc08">
+		<g>
+			<polygon fill="#7A5CA4" points="841.83,495.17 841.83,489.41 953.95,554.21 954.85,559.96 			"/>
+			<polygon fill="#8567B2" points="1008.55,522.89 1009.45,529.09 955.17,559.96 954.26,554.21 			"/>
+			<polygon fill="#9898FF" points="842.16,489.41 897.11,457.95 1008.55,522.89 954.26,554.21 			"/>
+		</g>
+		
+			<text transform="matrix(0.8055 0.4869 -0.8127 0.5826 907.933 502.1346)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.8978px">M08</text>
+	</g>
+	<g id="proc07">
+		<g>
+			<polygon fill="#7A5CA4" points="971.94,568.93 971.94,563.17 1084.05,627.97 1084.96,633.72 			"/>
+			<polygon fill="#8567B2" points="1138.65,596.65 1139.56,602.85 1085.27,633.72 1084.37,627.97 			"/>
+			<polygon fill="#9898FF" points="972.26,563.17 1027.21,531.71 1138.65,596.65 1084.37,627.97 			"/>
+		</g>
+		
+			<text transform="matrix(0.8055 0.4869 -0.8127 0.5826 1037.015 574.7317)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.8978px">M07</text>
+	</g>
+	<g id="proc06">
+		<g>
+			<polygon fill="#7A5CA4" points="1102.04,643.71 1102.04,637.96 1214.16,702.75 1215.06,708.51 			"/>
+			<polygon fill="#8567B2" points="1268.76,671.43 1269.66,677.64 1215.37,708.51 1214.47,702.75 			"/>
+			<polygon fill="#9898FF" points="1102.36,637.96 1157.32,606.49 1268.76,671.43 1214.47,702.75 			"/>
+		</g>
+		
+			<text transform="matrix(0.8055 0.4869 -0.8127 0.5826 1168.9047 647.7742)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.8978px">M06</text>
+	</g>
+	<g id="proc05">
+		<g>
+			<polygon fill="#7A5CA4" points="1228.05,715.42 1228.05,709.67 1340.16,774.46 1341.06,780.22 			"/>
+			<polygon fill="#8567B2" points="1394.76,743.14 1395.67,749.35 1341.38,780.22 1340.48,774.46 			"/>
+			<polygon fill="#9898FF" points="1228.37,709.67 1283.32,678.2 1394.76,743.14 1340.48,774.46 			"/>
+		</g>
+		
+			<text transform="matrix(0.8055 0.4869 -0.8127 0.5826 1294.4935 720.1081)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.8978px">M05</text>
+	</g>
+	<g id="proc04">
+		<g>
+			<polygon fill="#7A5CA4" points="487.38,696.98 487.38,691.23 599.5,756.02 600.4,761.78 			"/>
+			<polygon fill="#8567B2" points="654.09,724.7 655,730.91 600.71,761.78 599.81,756.02 			"/>
+			<polygon fill="#9898FF" points="487.7,691.23 542.65,659.76 654.09,724.7 599.81,756.02 			"/>
+		</g>
+		
+			<text transform="matrix(0.8055 0.4869 -0.8127 0.5826 556.7218 703.2081)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.8978px">M04</text>
+	</g>
+	<g id="proc03">
+		<g>
+			<polygon fill="#7A5CA4" points="617.48,770.74 617.48,764.99 729.6,829.78 730.5,835.54 			"/>
+			<polygon fill="#8567B2" points="784.2,798.46 785.1,804.67 730.82,835.54 729.91,829.78 			"/>
+			<polygon fill="#9898FF" points="617.81,764.99 672.76,733.52 784.2,798.46 729.91,829.78 			"/>
+		</g>
+		
+			<text transform="matrix(0.8055 0.4869 -0.8127 0.5826 683.3165 774.5161)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.8978px">M03</text>
+	</g>
+	<g id="proc02">
+		<g>
+			<polygon fill="#7A5CA4" points="747.59,845.53 747.59,839.77 859.7,904.57 860.6,910.32 			"/>
+			<polygon fill="#8567B2" points="914.3,873.24 915.2,879.45 860.92,910.32 860.02,904.57 			"/>
+			<polygon fill="#9898FF" points="747.91,839.77 802.86,808.3 914.3,873.24 860.02,904.57 			"/>
+		</g>
+		
+			<text transform="matrix(0.8055 0.4869 -0.8127 0.5826 814.4869 848.7656)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.8978px">M02</text>
+	</g>
+	<g id="proc01">
+		<g>
+			<polygon fill="#7A5CA4" points="873.59,917.24 873.59,911.48 985.71,976.28 986.61,982.03 			"/>
+			<polygon fill="#8567B2" points="1040.31,944.95 1041.21,951.16 986.93,982.03 986.02,976.28 			"/>
+			<polygon fill="#9898FF" points="873.91,911.48 928.87,880.01 1040.31,944.95 986.02,976.28 			"/>
+		</g>
+		
+			<text transform="matrix(0.8055 0.4869 -0.8127 0.5826 940.7382 922.1208)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.8978px">M01</text>
+	</g>
+	<g id="proc01_x5F_1">
+		<g>
+			<polygon fill="#7A5CA4" points="1003.7,909.04 1003.7,903.29 1058.44,935.3 1059.34,941.05 			"/>
+			<polygon fill="#8567B2" points="1174.51,868.12 1175.41,874.33 1059.66,941.05 1058.76,935.3 			"/>
+			<polygon fill="#9898FF" points="1004.02,903.29 1120.44,835.96 1174.51,868.12 1058.76,935.3 			"/>
+		</g>
+		
+			<text transform="matrix(0.8055 0.4869 -0.8127 0.5826 1070.5713 881.7756)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.8978px">M01</text>
+	</g>
+	<g id="proc02_x5F_2">
+		<g>
+			<polygon fill="#7A5CA4" points="1146.09,829.13 1146.09,823.38 1200.84,855.39 1201.74,861.15 			"/>
+			<polygon fill="#8567B2" points="1316.9,788.22 1317.81,794.42 1202.06,861.15 1201.15,855.39 			"/>
+			<polygon fill="#9898FF" points="1146.41,823.38 1262.83,756.06 1316.9,788.22 1201.15,855.39 			"/>
+		</g>
+		
+			<text transform="matrix(0.8055 0.4869 -0.8127 0.5826 1212.3848 801.1329)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="16.8978px">M02</text>
+	</g>
+</g>
+<g id="landmark-3d-b">
+	<g id="landmark-stage">
+		<g>
+			<path fill="#5A23A3" d="M528.36,361.27v5.07l162.07,91.11c0,0,6.58,3.85,12.66,1.22c6.08-2.63,94.7-54.53,94.7-54.53v-5.27
+				c0,0-76.12,45.81-92.95,54.33c-3.17,1.6-7.42,3.25-14.32-0.2C682.4,448.94,528.36,361.27,528.36,361.27z"/>
+			<path fill="#7B38C3" d="M529.17,361.27l97.09-55.34c0,0,5.58-3.99,11.35-1.01c6.69,3.45,161.15,93.95,161.15,93.95l-93.19,54.13
+				c0,0-6.08,3.45-13.38,0.2C684.9,449.95,529.17,361.27,529.17,361.27z"/>
+		</g>
+		
+			<text transform="matrix(0.9462 0.5575 -0.6959 0.7182 647.6132 367.1019)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="15.3291px">Open</text>
+		
+			<text transform="matrix(0.9462 0.5575 -0.6959 0.7182 634.1389 379.9154)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="15.3291px">Stage</text>
+	</g>
+	<g id="landmark-canteen">
+		<path fill="#7B38C3" d="M221.83,535.42l97.09-55.34c0,0,5.58-3.99,11.35-1.01c6.69,3.45,161.15,93.95,161.15,93.95l-93.19,54.13
+			c0,0-6.08,3.44-13.38,0.2C377.57,624.11,221.83,535.42,221.83,535.42z"/>
+		
+			<text transform="matrix(1.0259 0.5958 -0.7308 0.6826 334.4011 537.0933)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="14.3953px">Canteen</text>
+		
+			<text transform="matrix(1.0259 0.5958 -0.7308 0.6826 334.1516 556.0721)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="14.3953px">Cafe</text>
+	</g>
+	<g id="landmark-vip">
+		<path fill="#964CFF" d="M345.79,465.76l157.53-91.2c0,0,5.58-3.99,11.35-1.01c6.69,3.45,198.03,114.44,198.03,114.44l-156.7,89.98
+			c0,0-6.08,3.45-13.38,0.2C535.33,574.93,345.79,465.76,345.79,465.76z"/>
+		<g>
+			<path fill="#7B38C3" d="M344.98,465.76v5.07l195.88,111.6c0,0,6.58,3.85,12.66,1.22c6.08-2.63,158.21-90.39,158.21-90.39v-5.27
+				c0,0-139.64,81.67-156.46,90.18c-3.17,1.6-7.42,3.25-14.32-0.2C532.84,573.92,344.98,465.76,344.98,465.76z"/>
+			<path fill="#7B38C3" d="M346.01,465.6V344.22c0,0-1.49-4.5,8.41-11.25s147.9-85.52,147.9-85.52s5.53-3.6,6.89,3.6
+				c1.35,7.2,0.44,121.18,0.44,121.18L346.01,465.6z"/>
+			<path fill="#632EB7" d="M346.01,465.33V344.26c0,0-0.51-5.52,8.39-11.23c10.07-6.45,147.54-85.31,147.54-85.31
+				s1.52-0.96,3.11-0.89c0.01-0.15,0.06-0.3,0-0.32c-4.43-1.36-7.14,0.68-7.14,0.68s-136.33,78.06-145.44,83.8
+				c-9.2,5.79-8.51,11.92-8.51,11.92l1.02,128.08l1.38-5.71L346.01,465.33z"/>
+		</g>
+		
+			<text transform="matrix(0.8945 0.5342 -0.7629 0.6466 526.3691 453.1318)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="15.7765px">VIP</text>
+		
+			<text transform="matrix(0.8945 0.5342 -0.7629 0.6466 488.612 451.4486)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="15.7765px">Auditorium</text>
+		
+			<text transform="matrix(0.8945 0.5342 -0.7629 0.6466 483.6871 469.3725)" fill="#FFFFFF" font-family="'ProximaNova-Regular'" font-size="15.7765px">Enclose</text>
+	</g>
+</g>
+</svg>

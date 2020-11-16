@@ -1,0 +1,94 @@
+.slick-slider {
+  margin: 60px auto;
+  width: 500px;
+}
+
+.slick-dotted.slick-slider {
+  height: 100%;
+  width: 100%;
+  margin-top: 0;
+  /* margin-bottom: 30px; */
+}
+
+.slick-track {
+  width: 4050px;
+  left: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+
+
+.modal-popup {
+  .slick-active {
+    width: 450px !important;
+  }
+  .slick-initialized .slick-slide {
+    display: block;
+    width: 450px;
+    height: 636px;
+  }
+}
+
+.modal-popup_video{
+  .slick-initialized .slick-slide {
+    display: block;
+    width: 450px;
+    height: 300px;
+  }
+  .slick-active {
+    width: 500px !important;
+  }
+}
+
+.slick-dots {
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.slick-dots li {
+  background: transparent;
+  color: $white;
+  border-radius: 50%;
+  width: 20px !important;
+}
+
+/* added the following to give the background color of the arrows as red for visibility, the default which can be found in the slick-theme.css was white */
+
+.mapplic-tooltip{
+  .mapplic-tooltip-title{
+    color: $blue;
+    font-size: 15pt !important;
+    font-weight: bolder;
+  }
+  .mapplic-tooltip-title{
+    font-size: 12pt;
+  }
+  .btn-visit-exhibitor{
+    display: flex;
+    margin: 12pt 0;
+    padding: 5px 10px;
+    color: white;
+    background-color: $blue;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+
+  }
+}
+
+.mapplic-hovertip{
+  .mapplic-tooltip-title{
+    color: black;
+    font-size: 15pt !important;
+    font-weight: bolder;
+  }
+}

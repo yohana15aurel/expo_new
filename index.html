@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+  <link rel="icon" href="assets/images/favicon_02.png" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta charset="UTF-8">
+  <title>XPOMANIA</title>
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-home navbar-default navbar-side navbar-static-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button data-toggle="collapse-side" data-target=".side-collapse" type="button" class="navbar-toggle">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar-home"></span>
+          <span class="icon-bar-home"></span>
+          <span class="icon-bar-home"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <img src="assets/images/XPOMANIA-Logo-White.png" class="xpomania" alt="xpomania">
+        </a>
+      </div>
+      <div class="navbar-default side-collapse open">
+          <button type="button" class="close close-cross" id="close1">&times;</button>
+        <div class="navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active">
+              <a class="hover-1-home" href="#">About</a>
+            </li>
+            <li>
+              <a class="hover-1-home" href="#">Press</a>
+            </li>
+            <li>
+              <a class="hover-1-home" href="#">Gallery</a>
+            </li>
+            <li>
+              <a class="hover-1-home" href="#">Contact</a>
+            </li>
+            <li>
+              <a class="hover-1-home" href="#">FAQ</a>
+            </li>
+            <li>
+              <a class="hover-1-home" href="https://xpodev.xpomania.com/portal" target="_blank">Portal</a>
+            </li>
+            <li>
+              <span class="register">
+                <a class="view-form" data-toggle="modal" data-target="#open-register" contenteditable="false">
+                  <button class="btn-blue button-blue">Register</button>
+                </a>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- countdown -->
+  <div class="countdown-banner">
+    <div class="overlay"></div>
+    <div class="content-countdown__banner padding-banner">
+      <h2 class="js-text-countdown-title"><!-- @dynamic--></h2>
+      <p class="js-text-countdown-subtitle"><!-- @dynamic--></p>
+      <div class="countdown" id="countdown">
+        <ul>
+          <li>
+            <span id="days">0</span>Days</li>
+          <li>
+            <span id="hours">0</span>Hours</li>
+          <li>
+            <span id="minutes">0</span>Minutes</li>
+          <li>
+            <span id="seconds">0</span>Seconds</li>
+        </ul>
+      </div>
+      <div class="skip">
+        <a href="xpo/index.html" class="btn-blue button-blue btn-skip">Skip to demo</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Form Registration-->
+  <div class="modal  modal-regis fade" id="open-register" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">REGISTER ACCOUNT</h4>
+        </div>
+        <div class="modal-body">
+          <form class="form-registration">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="form-title_register">
+                  <label>Title</label>
+                  <select class="title-register" id="title-register" required>
+                    <option value="" disabled selected>Title</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="register-first_name">
+                  <label>First Name</label>
+                  <input type="text" class="fname-regis" id="fname-regis" name="fname-regis" placeholder="First Name" required>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="register-last_name">
+                  <label>Last Name</label>
+                  <input type="text" class="lname-regis" id="lname-regis" name="lname-regis" placeholder="Last Name" required>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="register-phone">
+                  <label>Phone Number</label>
+                  <input type="number" class="phone-regis" id="phone-regis" name="phone-regis" placeholder="Phone Number" required>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="register-email">
+                  <label>Email</label>
+                  <input type="email" class="email-regis" id="email-regis" name="email-regis" placeholder="Email" required>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="register-email">
+                  <label>Confirm Email</label>
+                  <input type="email" class="conf-email" id="conf-email" name="conf-email" placeholder="Confirm Email" required>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="register-country">
+                  <label>Select Country</label>
+                  <select class="register-select-country" id="register-select-country" required>
+                    <option value="" disabled selected>Country</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="submit">
+              <button id="btn-reg" class="btn-submit2" type="submit"> Register </button>
+            </div>
+            <div class="login-here">
+              <p>Have registered, please
+                <a class="btn-login" data-toggle="modal" data-target="#open-login" contenteditable="false">login here!</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Form Login-->
+  <div class="modal  modal-login fade" id="open-login" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">LOGIN</h4>
+        </div>
+        <div class="modal-body">
+          <form class="form-login" action="/action_page.php">
+            <div class="login-username">
+              <label>Email</label>
+              <input type="email" class="login-user" id="login-user" name="login-user" placeholder="Email" required>
+            </div>
+            <div class="login-pwd">
+              <label>Password</label>
+              <input type="password" class="pwd-login" id="pwd-login" name="pwd-login" placeholder="Password" required>
+            </div>
+            <div class="submit">
+              <button id="btn-login" class="btn-submit2" type="submit"> Login </button>
+            </div>
+            <div class="regis-here">
+              <p>Haven’t registered yet, please
+                <a class="btn-regis" data-toggle="modal" data-target="#open-register" contenteditable="false">register here!</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal For User Action Response -->
+  <div class="modal modal-response fade" id="action-response" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title message">Title</h4>
+        </div>
+        <div class="modal-body">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--[if lte IE 9]><script src="assets/plugins/jquery/jquery-1.12.4.min.js"></script><![endif]-->
+  <!--[if !IE]> -->
+  <script src="assets/plugins/jquery/jquery-2.2.4.min.js"></script>
+  <!-- <script src="assets/plugins/jquery/mobile/jquery.mobile-1.4.5.min.js"></script> -->
+
+  <!-- <![endif]-->
+  <script src="assets/plugins/hotspotter/jquery-hotspotter-1.7.6.min.js"></script>
+
+  <script src="assets/plugins/hammer/hammer.min.js"></script>
+  <script src="assets/plugins/hammer/jquery-hammer/jquery.hammer.js"></script>
+
+  <script src="assets/plugins/slick/slick.min.js"></script>
+  <link href="assets/plugins/slick/slick-theme.css" rel="stylesheet" />
+  <link href="assets/plugins/slick/slick.css" rel="stylesheet" />
+
+  <script src="assets/plugins/dragscroll/dragscroll.js"></script>
+  <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/fx-utils.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/api-module/web-api-support.js"></script>
+  <script src="assets/plugins/store/store.legacy.min.js"></script>
+  <script src="assets/plugins/moment/moment.js"></script>
+  <script src="assets/plugins/datepicker/bootstrap-datetimepicker.min.js"></script>
+  <script src="assets/plugins/simplelightbox/dist/simpleLightbox.min.js"></script>
+
+  <script src="assets/plugins/jquery/jquery-ui-1.12.1/jquery-ui.js"></script>
+
+
+  <!-- <script src="assets/js/main-dist.js"></script> -->
+  <script src="assets/js/api-module/get-api.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+{
+  "name": "fx-xpomania-fe",
+  "version": "1.0.0",
+  "description": "FXMedia's pitching project for Xpomania.",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"nodemon ./scripts/preview.js\" \"webpack --mode=development\"",
+    "deploy": "concurrently \"webpack --mode=production\" \"node ./scripts/deploy.js\"",
+    "build": "babel lib -d dist"
+  },
+  "author": "fxmgithub",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.10.4",
+    "concurrently": "^5.2.0",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "file-saver": "^2.0.2",
+    "lightbox2": "^2.11.3",
+    "simple-lightbox": "^2.1.0",
+    "simplelightbox": "^2.2.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.0",
+    "@babel/plugin-transform-template-literals": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "nodemon": "^2.0.4",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "nodemonConfig": {
+    "ignore": []
+  }
+}

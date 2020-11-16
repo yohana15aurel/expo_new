@@ -1,0 +1,235 @@
+.btn-blue {
+  background-color: transparent;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 8px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.8em;
+  margin: 6px 32px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.button-blue {
+  background-color: $blue;
+  color: $white;
+  border: 2px solid $blue;
+  &:hover {
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+  }
+}
+
+.overlay {
+  position: fixed;
+  /* Sit on top of the page content */
+  width: 100%;
+  /* Full width (cover the whole page) */
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  /* Black background with opacity */
+  z-index: 2;
+  /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer;
+}
+
+.padding-banner {
+  padding: 150px 300px 0;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+}
+
+
+.form-title_register,
+.sel_country,
+.representative_sel,
+.register-country,
+.country-meeting-select,
+.time-private-meeting-sel,
+.date-private-meeting-sel,
+.timezone-meeting-select{
+  &:after{
+    content: "▾";
+    font-weight: bold;
+    color: $gray;
+    right: 36px;
+    padding: 0 0 2px;
+    position: absolute;
+    pointer-events: none;
+    margin-top: 10px;
+  }
+}
+.date-private-meeting-sel{
+  &:after{
+    content: "▾";
+    font-weight: bold;
+    color: $gray;
+    right: 36px;
+    padding: 0 0 2px;
+    position: absolute;
+    pointer-events: none;
+    margin-top: 10px;
+  }
+}
+
+select:invalid {
+  color: $gray !important;
+  /* color when selected but not focused */
+}
+
+::-webkit-input-placeholder {
+  color: $gray;
+}
+
+:-moz-placeholder {
+  color: $gray;
+}
+
+::-moz-placeholder {
+  color: $gray;
+}
+
+:-ms-input-placeholder {
+  color: $gray;
+}
+
+span {
+  font-weight: 100;
+  margin-left: 0;
+}
+
+#searchBar {
+  outline: none;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid $white;
+  color: $white;
+  font-size: 0.8em;
+  font-weight: 100;
+  margin-right: 10px;
+  padding: 0 1em 0 1em;
+  float: right;
+  max-width: 100px;
+  text-align: left;
+  font-family: "ProximaNova-Regular"
+}
+
+#toggle-search {
+  float: right;
+}
+
+.search2 {
+  color: $white;
+  display: none;
+}
+
+#searchBar2 {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid $white;
+  color: $white;
+  font-size: 0.8em;
+  font-weight: 100;
+  margin-right: 10px;
+  padding: 0 .75em 1em;
+  float: right;
+  max-width: 130px;
+  text-align: left;
+}
+
+#toggle-search2 {
+  float: right;
+  margin-right: 15px;
+  margin-top: 18px;
+}
+
+iframe {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.fade.in {
+  background-color: rgba(0, 0, 0, 0.9);
+  padding-left: 0 !important;
+}
+
+.btn-submit {
+  width: 120px;
+  border-radius: 20px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background: $red;
+  color: $white;
+}
+
+.btn-submit2 {
+  width: 150px;
+  border-radius: 20px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background: $blue;
+  color: $white;
+}
+
+.triangle:before {
+  content: "\a";
+  border-style: solid;
+  border-width: 10px 15px 10px 0;
+  border-color: transparent black transparent transparent;
+  position: absolute;
+  transform: rotate(90deg);
+  top: -15px;
+  right: 40px;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  /* Remove scrollbar space */
+  background: transparent;
+  /* Optional: just make scrollbar invisible */
+}
+
+.btn-visit {
+  text-decoration: none;
+  background: transparent;
+  border: 2px solid $blue;
+  color: $blue;
+  border-radius: 50px;
+  width: 120px;
+  padding: 10px 40px;
+  font-family: 'ProximaNova-Bold';
+  &:hover {
+    background: $blue;
+    color: $white;
+  }
+}
+
+#search_form {
+  margin-top: 20px;
+}
+
+.seminar-youtube {
+  height: 90vh;
+}
+
+
+#dontShow{
+  margin-right: 5px;
+}
+

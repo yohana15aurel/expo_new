@@ -1,0 +1,28 @@
+09-04-2013, plugin v1.7.6, editor v1.3.2:
+	- Editor: Fixed bug in image spots positioning & inclusion
+	
+27-03-2013, plugin v1.7.6, editor v1.3.1:
+	- Plugin: slight change in 'goin' animation to make it more consistent with any spot size
+	
+11-03-2013, plugin v1.7.5, editor v1.3.1:
+	- Plugin: image spots become responsive
+	- Plugin: image spot will also hover with aim effect
+
+02-03-2013, plugin v1.7.4, editor v1.3.1:
+	- Editor: bug fix in cloning
+	- Plugin: bug fix in aiming effect
+	
+26-02-2013, plugin v1.7.3, editor v1.3.1:
+	- Editor: improvement in image loading
+	- Editor: improvement in image spots markup
+	- Editor: bug fix for getting code
+	
+24-02-2013, plugin v1.7.3, editor v1.3.0:
+	- Editor: you can now load previously generated code
+	- Editor: added option to format generated code for use with wordpress
+	- Editor: minor Interface change
+	- added wordpress installation instruction in documentation
+
+03-02-2013, plugin v1.7.3, editor v1.2.2:
+	- Editor: use aiming effect with custom image spots
+	- Plugin: modified glass spot
